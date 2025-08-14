@@ -26,6 +26,10 @@ class MissingFieldsDialog(QDialog):
         self.setModal(True)
         self.fields = {}
         
+        # 过滤掉不需要用户填写的字段
+        auto_fields = {'转档字号'}  # 自动生成的字段
+        fields_to_fill = missing_fields - auto_fields
+        
         layout = QVBoxLayout()
         
         # 提示信息
@@ -35,11 +39,12 @@ class MissingFieldsDialog(QDialog):
         
         # 字段输入
         form_layout = QFormLayout()
-        for field in missing_fields:
+        for field in fields_to_fill:
             line_edit = QLineEdit()
             # 如果是年份字段，添加提示
             if field == '年':
                 line_edit.setPlaceholderText('后两位，如：24、25')
+                line_edit.setMaxLength(2)
             self.fields[field] = line_edit
             form_layout.addRow(f"{field}:", line_edit)
         
@@ -55,7 +60,7 @@ class MissingFieldsDialog(QDialog):
         layout.addWidget(buttons)
         
         self.setLayout(layout)
-        self.resize(400, min(300 + len(missing_fields) * 30, 600))
+        self.resize(400, min(300 + len(fields_to_fill) * 30, 600))
     
     def get_values(self):
         values = {}
@@ -285,37 +290,33 @@ class ArchiveTransferGenerator(QMainWindow):
         # 定义所有可能的字段（不包括提交时间）
         self.manual_fields = {}
         field_list = [
-            ('姓名', '请输入姓名', None),
-            ('学号', '请输入学号', None),
-            ('班级', '请输入班级', None),
-            ('届', '如：2023', None),
-            ('年', '后两位，如：24、25', 2),  # 限制为2位
-            ('月', '如：7', None),
-            ('日', '如：15', None),
-            ('身份证号', '请输入身份证号', None),
-            ('收档单位名称', '请输入收档单位名称', None),
-            ('转递编号', '请输入转递编号', None),
-            ('生源地', '请输入生源地', None),
-            ('手机号', '请输入手机号', None),
-            ('档案转递类型', '请输入档案转递类型', None),
-            ('就业单位名称', '请输入就业单位名称', None),
-            ('就业单位地址', '请输入就业单位地址', None),
+            ('姓名', '请输入姓名'),
+            ('学号', '请输入学号'),
+            ('班级', '请输入班级'),
+            ('届', '如：2023'),
+            ('年', '后两位，如：24、25'),
+            ('月', '如：7'),
+            ('日', '如：15'),
+            ('身份证号', '请输入身份证号'),
+            ('收档单位名称', '请输入收档单位名称'),
+            ('转递编号', '请输入转递编号'),
+            ('生源地', '请输入生源地'),
+            ('手机号', '请输入手机号'),
+            ('档案转递类型', '请输入档案转递类型'),
+            ('就业单位名称', '请输入就业单位名称'),
+            ('就业单位地址', '请输入就业单位地址'),
         ]
         
         row = 0
         col = 0
-        for field_info in field_list:
-            field_name = field_info[0]
-            placeholder = field_info[1]
-            max_length = field_info[2] if len(field_info) > 2 else None
-            
+        for field_name, placeholder in field_list:
             label = QLabel(f"{field_name}:")
             line_edit = QLineEdit()
             line_edit.setPlaceholderText(placeholder)
             
-            # 如果有最大长度限制，设置它
-            if max_length:
-                line_edit.setMaxLength(max_length)
+            # 如果是年份字段，限制最大长度为2
+            if field_name == '年':
+                line_edit.setMaxLength(2)
             
             self.manual_fields[field_name] = line_edit
             
@@ -412,7 +413,8 @@ class ArchiveTransferGenerator(QMainWindow):
                     try:
                         # 如果是datetime对象
                         if hasattr(date_value, 'year'):
-                            display_df.at[idx, '年(预览)'] = str(date_value.year)[-2:]  # 只取后两位
+                            year = str(date_value.year)[-2:]  # 只取后两位
+                            display_df.at[idx, '年(预览)'] = year
                             display_df.at[idx, '月(预览)'] = str(date_value.month)
                             display_df.at[idx, '日(预览)'] = str(date_value.day)
                         else:
@@ -426,15 +428,25 @@ class ArchiveTransferGenerator(QMainWindow):
                             if '/' in date_part:
                                 parts = date_part.split('/')
                                 if len(parts) >= 3:
-                                    display_df.at[idx, '年(预览)'] = parts[0][-2:]  # 只取后两位
+                                    year = parts[0][-2:]  # 只取后两位
+                                    display_df.at[idx, '年(预览)'] = year
                                     display_df.at[idx, '月(预览)'] = str(int(parts[1])) if parts[1].isdigit() else parts[1]
                                     display_df.at[idx, '日(预览)'] = str(int(parts[2])) if parts[2].isdigit() else parts[2]
                             elif '-' in date_part:
                                 parts = date_part.split('-')
                                 if len(parts) >= 3:
-                                    display_df.at[idx, '年(预览)'] = parts[0][-2:]  # 只取后两位
+                                    year = parts[0][-2:]  # 只取后两位
+                                    display_df.at[idx, '年(预览)'] = year
                                     display_df.at[idx, '月(预览)'] = str(int(parts[1])) if parts[1].isdigit() else parts[1]
                                     display_df.at[idx, '日(预览)'] = str(int(parts[2])) if parts[2].isdigit() else parts[2]
+                        
+                        # 生成转档字号预览
+                        if '学号' in row and '班级' in row:
+                            year = display_df.at[idx, '年(预览)'] if '年(预览)' in display_df.columns else ''
+                            student_id = str(row['学号']) if pd.notna(row['学号']) else ''
+                            class_name = str(row['班级']) if pd.notna(row['班级']) else ''
+                            if year and student_id and class_name:
+                                display_df.at[idx, '转档字号(预览)'] = f"{year}{student_id}_{class_name}"
                     except:
                         pass
         
@@ -635,17 +647,23 @@ class ArchiveTransferGenerator(QMainWindow):
             original_keys = set(row_data.keys())
             row_data = self.extract_date_fields(row_data)
             
+            # 生成转档字号
+            row_data = self.generate_transfer_number(row_data)
+            
             # 打印提取结果
             new_keys = set(row_data.keys()) - original_keys
             if new_keys:
                 print(f"[第{row_idx+1}行] ✓ 新增字段: {new_keys}")
-                for key in ['年', '月', '日']:
+                for key in ['年', '月', '日', '转档字号']:
                     if key in row_data:
                         print(f"[第{row_idx+1}行]   {key} = '{row_data[key]}'")
             
-            # 检查缺失字段
+            # 检查缺失字段（排除自动生成的字段）
+            auto_generated_fields = {'转档字号'}  # 自动生成的字段列表
             missing_fields = set()
             for field in template_variables:
+                if field in auto_generated_fields:
+                    continue  # 跳过自动生成的字段
                 if field not in row_data:
                     missing_fields.add(field)
                     print(f"[第{row_idx+1}行] ✗ 字段 '{field}' 不存在")
@@ -667,6 +685,11 @@ class ArchiveTransferGenerator(QMainWindow):
                     filled_values = dialog.get_values()
                     row_data.update(filled_values)
                     print(f"[第{row_idx+1}行] 用户填写了: {filled_values}")
+                    
+                    # 如果用户填写了年、学号或班级，重新生成转档字号
+                    if any(key in filled_values for key in ['年', '学号', '班级']):
+                        row_data = self.generate_transfer_number(row_data)
+                        print(f"[第{row_idx+1}行] 重新生成转档字号: {row_data.get('转档字号', '')}")
                 else:
                     print(f"[第{row_idx+1}行] 用户取消，跳过此行")
                     continue  # 跳过这一行
