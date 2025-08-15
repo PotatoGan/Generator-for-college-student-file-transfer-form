@@ -14,9 +14,9 @@ from PyQt6.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout,
                              QFileDialog, QMessageBox, QTabWidget, QLabel, QLineEdit,
                              QGridLayout, QGroupBox, QHeaderView, QAbstractItemView,
                              QDialog, QDialogButtonBox, QFormLayout, QComboBox,
-                             QProgressDialog)
+                             QProgressDialog, QTextEdit, QScrollArea)
 from PyQt6.QtCore import Qt, QThread, pyqtSignal
-from PyQt6.QtGui import QFont
+from PyQt6.QtGui import QFont, QTextCursor
 
 class MissingFieldsDialog(QDialog):
     """缺失字段填写对话框"""
@@ -263,6 +263,10 @@ class ArchiveTransferGenerator(QMainWindow):
         self.manual_tab = self.create_manual_tab()
         self.tab_widget.addTab(self.manual_tab, "手动填写生成")
         
+        # 关于页面
+        self.about_tab = self.create_about_tab()
+        self.tab_widget.addTab(self.about_tab, "关于")
+        
         # 状态栏
         self.statusBar().showMessage('就绪')
         
@@ -377,6 +381,229 @@ class ArchiveTransferGenerator(QMainWindow):
         layout.addLayout(button_layout)
         
         tab.setLayout(layout)
+        return tab
+    
+    def create_about_tab(self):
+        """创建关于页面"""
+        tab = QWidget()
+        main_layout = QVBoxLayout()
+        
+        # 创建滚动区域
+        scroll_area = QScrollArea()
+        scroll_area.setWidgetResizable(True)
+        
+        # 内容容器
+        content_widget = QWidget()
+        content_layout = QVBoxLayout()
+        
+        # 标题
+        title = QLabel("高校学生档案转递单批量生成工具")
+        title.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        title.setStyleSheet("font-size: 18pt; font-weight: bold; padding: 10px;")
+        content_layout.addWidget(title)
+        
+        # 作者信息组
+        author_group = QGroupBox("作者信息")
+        author_layout = QVBoxLayout()
+        
+        author_info = """
+        <p><b>作者：</b>周天千</p>
+        <p><b>联系邮箱：</b>2023520354@bipt.edu.cn</p>
+        <p><b>制作时间：</b>2025年8月</p>
+        <p><b>版本：</b>v1.0</p>
+        """
+        author_label = QLabel(author_info)
+        author_label.setTextFormat(Qt.TextFormat.RichText)
+        author_label.setStyleSheet("padding: 10px;")
+        author_layout.addWidget(author_label)
+        author_group.setLayout(author_layout)
+        content_layout.addWidget(author_group)
+        
+        # 使用说明组
+        manual_group = QGroupBox("软件使用说明")
+        manual_layout = QVBoxLayout()
+        
+        manual_text = QTextEdit()
+        manual_text.setReadOnly(True)
+        manual_text.setHtml("""
+        <h3>一、准备工作</h3>
+        <h4>1. 文件夹结构</h4>
+        <p>请确保程序所在目录下有以下文件夹结构：</p>
+        <ul>
+            <li><b>template/</b> - 存放Word模板文件（.docx格式）</li>
+            <li>模板文件中使用 <b>{{字段名}}</b> 作为占位符</li>
+        </ul>
+        
+        <h4>2. Word模板格式</h4>
+        <p>模板中的占位符格式必须为：<b>{{字段名}}</b></p>
+        <p>常用字段包括：</p>
+        <ul>
+            <li>{{姓名}} - 学生姓名</li>
+            <li>{{学号}} - 学生学号</li>
+            <li>{{班级}} - 班级名称</li>
+            <li>{{届}} - 毕业届别（如2023）</li>
+            <li>{{年}}、{{月}}、{{日}} - 日期信息</li>
+            <li>{{转档字号}} - 自动生成的转档编号</li>
+            <li>{{身份证号}} - 身份证号码</li>
+            <li>{{收档单位名称}} - 接收档案的单位</li>
+            <li>{{手机号}} - 联系电话</li>
+            <li>其他自定义字段...</li>
+        </ul>
+        
+        <h4>3. Excel数据文件</h4>
+        <p>Excel文件应包含与模板对应的列名，程序会自动匹配。</p>
+        <p>如果Excel中有日期相关字段（如"提交时间"、"提交日期"等），程序会自动提取年、月、日。</p>
+        
+        <hr>
+        
+        <h3>二、Excel批量生成功能</h3>
+        
+        <h4>1. 导入Excel数据</h4>
+        <ol>
+            <li>点击 <b>"📁 读取Excel文件"</b> 按钮</li>
+            <li>选择包含学生信息的Excel文件（.xlsx或.xls格式）</li>
+            <li>程序会自动读取数据并显示在表格中</li>
+            <li>如果有日期字段，会自动提取年、月、日信息</li>
+            <li>自动生成转档字号（格式：年份后两位+学号_班级）</li>
+        </ol>
+        
+        <h4>2. 编辑数据</h4>
+        <ul>
+            <li><b>双击单元格</b>可以直接编辑内容</li>
+            <li>修改年、学号或班级后，转档字号会自动更新</li>
+            <li>所有修改都会实时反映在生成的文档中</li>
+        </ul>
+        
+        <h4>3. 选择要生成的记录</h4>
+        <ul>
+            <li>每行前有复选框，勾选要生成文档的记录</li>
+            <li>使用 <b>"☑ 全选"</b> 选择所有记录</li>
+            <li>使用 <b>"☐ 取消全选"</b> 取消所有选择</li>
+        </ul>
+        
+        <h4>4. 批量生成文档</h4>
+        <ol>
+            <li>选择要生成文档的记录（打勾）</li>
+            <li>点击 <b>"📄 批量生成Word文档"</b> 按钮</li>
+            <li>选择输出文件夹</li>
+            <li>如果有缺失字段，会逐条弹出对话框：
+                <ul>
+                    <li>可以填写缺失的信息</li>
+                    <li>可以留空继续生成</li>
+                    <li>可以选择跳过该记录</li>
+                </ul>
+            </li>
+            <li>等待生成完成，进度条会显示当前进度</li>
+        </ol>
+        
+        <h4>5. 文件命名规则</h4>
+        <p>生成的文件名格式：<b>学号_姓名_班级.docx</b></p>
+        
+        <hr>
+        
+        <h3>三、手动填写生成功能</h3>
+        
+        <h4>1. 填写信息</h4>
+        <ol>
+            <li>切换到 <b>"手动填写生成"</b> 标签页</li>
+            <li>在相应的输入框中填写信息</li>
+            <li>必填字段：姓名、学号、班级</li>
+            <li>其他字段可选填</li>
+        </ol>
+        
+        <h4>2. 快速功能</h4>
+        <ul>
+            <li><b>"📅 填充今天日期"</b> - 自动填入当前日期的年、月、日</li>
+            <li><b>"🔄 清空所有字段"</b> - 清空所有已填写的内容</li>
+        </ul>
+        
+        <h4>3. 生成单个文档</h4>
+        <ol>
+            <li>填写必要信息</li>
+            <li>点击 <b>"📄 生成Word文档"</b> 按钮</li>
+            <li>选择输出文件夹</li>
+            <li>如果有未填写的字段，会提示是否继续（未填写的字段在文档中留空）</li>
+        </ol>
+        
+        <hr>
+        
+        <h3>四、特殊字段说明</h3>
+        
+        <h4>1. 年份处理</h4>
+        <ul>
+            <li>在文档中显示完整年份（如：2025）</li>
+            <li>转档字号只使用年份后两位（如：25）</li>
+        </ul>
+        
+        <h4>2. 转档字号</h4>
+        <ul>
+            <li>自动生成，格式：年份后两位+学号_班级</li>
+            <li>例如：252018310722_计181</li>
+            <li>修改年、学号或班级后自动更新</li>
+        </ul>
+        
+        <h4>3. 日期提取</h4>
+        <p>程序会自动识别以下格式的日期字段：</p>
+        <ul>
+            <li>提交时间、提交日期</li>
+            <li>日期、时间</li>
+            <li>创建时间、更新时间</li>
+        </ul>
+        <p>支持的日期格式：</p>
+        <ul>
+            <li>2025/8/15 或 2025-08-15</li>
+            <li>包含时间的格式也可识别</li>
+        </ul>
+        
+        <hr>
+        
+        <h3>五、常见问题</h3>
+        
+        <h4>Q: 为什么提示找不到template文件夹？</h4>
+        <p>A: 请在程序所在目录创建名为"template"的文件夹，并放入Word模板文件。</p>
+        
+        <h4>Q: 生成的文档中有{{xxx}}这样的文字？</h4>
+        <p>A: 这表示该字段在数据中缺失，请检查Excel数据或在弹出的对话框中补全。</p>
+        
+        <h4>Q: 如何修改已导入的数据？</h4>
+        <p>A: 直接双击表格中的单元格即可编辑，修改后的内容会直接用于生成文档。</p>
+        
+        <h4>Q: 转档字号格式可以自定义吗？</h4>
+        <p>A: 目前转档字号格式固定为：年份后两位+学号_班级。如需其他格式，可手动编辑表格中的转档字号列。</p>
+        
+        <h4>Q: 批量生成时某些记录失败了怎么办？</h4>
+        <p>A: 程序会显示成功生成的数量，失败的记录可以单独检查并重新生成。</p>
+        
+        <hr>
+        
+        <h3>六、使用技巧</h3>
+        
+        <ol>
+            <li><b>批量处理前先检查：</b>导入Excel后，先浏览一遍数据，确认关键字段都有值。</li>
+            <li><b>利用全选功能：</b>如果大部分记录都要生成，先全选再取消个别不需要的。</li>
+            <li><b>表格编辑即时生效：</b>发现错误可以直接在表格中修改，不需要重新导入。</li>
+            <li><b>缺失字段灵活处理：</b>不是所有字段都必须填写，可以根据实际需要选择补全或留空。</li>
+            <li><b>保存编辑结果：</b>如果对表格做了大量修改，建议生成文档后也导出一份修改后的Excel作为备份。</li>
+        </ol>
+        
+        <hr>
+        
+        <p style="text-align: center; color: gray; margin-top: 20px;">
+        如有问题或建议，请联系：2023520354@bipt.edu.cn
+        </p>
+        """)
+        
+        manual_layout.addWidget(manual_text)
+        manual_group.setLayout(manual_layout)
+        content_layout.addWidget(manual_group)
+        
+        # 设置内容widget
+        content_widget.setLayout(content_layout)
+        scroll_area.setWidget(content_widget)
+        
+        # 添加到主布局
+        main_layout.addWidget(scroll_area)
+        tab.setLayout(main_layout)
         return tab
     
     def on_table_item_changed(self, item):
