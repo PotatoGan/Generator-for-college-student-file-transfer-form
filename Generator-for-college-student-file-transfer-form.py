@@ -63,6 +63,8 @@ class MissingFieldsDialog(QDialog):
                 line_edit.setPlaceholderText('请输入手机号')
             elif field == '档案转递类型':
                 line_edit.setPlaceholderText('请输入档案转递类型')
+                # 添加提示信息
+                line_edit.setToolTip('常用类型：转回生源地、签约单位接收、托管单位接收、升学外校接收')
             elif field == '就业单位名称':
                 line_edit.setPlaceholderText('请输入就业单位名称')
             elif field == '就业单位地址':
@@ -336,7 +338,7 @@ class ArchiveTransferGenerator(QMainWindow):
             ('转递编号', '请输入转递编号'),
             ('生源地', '请输入生源地'),
             ('手机号', '请输入手机号'),
-            ('档案转递类型', '请输入档案转递类型'),
+            ('档案转递类型', None),  # 将使用下拉框
             ('就业单位名称', '请输入就业单位名称'),
             ('就业单位地址', '请输入就业单位地址'),
         ]
@@ -345,13 +347,29 @@ class ArchiveTransferGenerator(QMainWindow):
         col = 0
         for field_name, placeholder in field_list:
             label = QLabel(f"{field_name}:")
-            line_edit = QLineEdit()
-            line_edit.setPlaceholderText(placeholder)
             
-            self.manual_fields[field_name] = line_edit
-            
-            form_layout.addWidget(label, row, col * 2)
-            form_layout.addWidget(line_edit, row, col * 2 + 1)
+            if field_name == '档案转递类型':
+                # 创建下拉框
+                combo_box = QComboBox()
+                combo_box.addItems([
+                    '',  # 空选项
+                    '转回生源地',
+                    '签约单位接收',
+                    '托管单位接收',
+                    '升学外校接收'
+                ])
+                combo_box.setEditable(True)  # 允许自定义输入
+                combo_box.setInsertPolicy(QComboBox.InsertPolicy.NoInsert)  # 不自动添加到列表
+                self.manual_fields[field_name] = combo_box
+                form_layout.addWidget(label, row, col * 2)
+                form_layout.addWidget(combo_box, row, col * 2 + 1)
+            else:
+                # 创建普通输入框
+                line_edit = QLineEdit()
+                line_edit.setPlaceholderText(placeholder)
+                self.manual_fields[field_name] = line_edit
+                form_layout.addWidget(label, row, col * 2)
+                form_layout.addWidget(line_edit, row, col * 2 + 1)
             
             col += 1
             if col >= 3:  # 每行3个字段
@@ -397,7 +415,7 @@ class ArchiveTransferGenerator(QMainWindow):
         content_layout = QVBoxLayout()
         
         # 标题
-        title = QLabel("高校学生档案转递单批量生成工具")
+        title = QLabel("档案转递文档批量生成工具")
         title.setAlignment(Qt.AlignmentFlag.AlignCenter)
         title.setStyleSheet("font-size: 18pt; font-weight: bold; padding: 10px;")
         content_layout.addWidget(title)
@@ -538,7 +556,7 @@ class ArchiveTransferGenerator(QMainWindow):
         <h4>2. 转档字号</h4>
         <ul>
             <li>自动生成，格式：年份后两位+学号_班级</li>
-            <li>例如：252018310722_计181</li>
+            <li>例如：25202201_计算机1班</li>
             <li>修改年、学号或班级后自动更新</li>
         </ul>
         
@@ -985,8 +1003,11 @@ class ArchiveTransferGenerator(QMainWindow):
     
     def clear_manual_fields(self):
         """清空手动填写的字段"""
-        for field_edit in self.manual_fields.values():
-            field_edit.clear()
+        for field_name, field_widget in self.manual_fields.items():
+            if isinstance(field_widget, QComboBox):
+                field_widget.setCurrentIndex(0)  # 重置到第一个空选项
+            else:
+                field_widget.clear()
     
     def fill_today_date(self):
         """填充今天的日期"""
@@ -1009,8 +1030,12 @@ class ArchiveTransferGenerator(QMainWindow):
         
         # 收集填写的数据
         data = {}
-        for field_name, field_edit in self.manual_fields.items():
-            value = field_edit.text().strip()
+        for field_name, field_widget in self.manual_fields.items():
+            if isinstance(field_widget, QComboBox):
+                value = field_widget.currentText().strip()
+            else:
+                value = field_widget.text().strip()
+            
             if value:
                 data[field_name] = value
         

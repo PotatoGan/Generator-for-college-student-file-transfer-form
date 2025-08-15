@@ -1,0 +1,3990 @@
+('F:\\CODE\\2025-08-14 '
+ 'Generator-for-college-student-file-transfer-form\\build\\楂樻牎瀛︾敓妗ｆ\ue50d杞\ue104€掑崟鎵归噺鐢熸垚宸ュ叿\\PYZ-00.pyz',
+ [('PyQt6',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\PyQt6\\__init__.py',
+   'PYMODULE'),
+  ('__future__',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\__future__.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_bootsubprocess',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\_bootsubprocess.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('_compression',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\_compression.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('_pyi_rth_utils',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\__init__.py',
+   'PYMODULE'),
+  ('_pyi_rth_utils.qt',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\qt.py',
+   'PYMODULE'),
+  ('_strptime',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\_strptime.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\_threading_local.py',
+   'PYMODULE'),
+  ('argparse',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\argparse.py',
+   'PYMODULE'),
+  ('ast',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\ast.py',
+   'PYMODULE'),
+  ('asyncio',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.mixins',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\mixins.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.taskgroups',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\taskgroups.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('asyncio.threads',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\threads.py',
+   'PYMODULE'),
+  ('asyncio.timeouts',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\timeouts.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('base64',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\base64.py',
+   'PYMODULE'),
+  ('bdb',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\bdb.py',
+   'PYMODULE'),
+  ('bisect',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\bisect.py',
+   'PYMODULE'),
+  ('bz2',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\bz2.py',
+   'PYMODULE'),
+  ('calendar',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\calendar.py',
+   'PYMODULE'),
+  ('cgi',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\cgi.py',
+   'PYMODULE'),
+  ('cmd',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\cmd.py',
+   'PYMODULE'),
+  ('code',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\codeop.py',
+   'PYMODULE'),
+  ('concurrent',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('contextlib',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\contextlib.py',
+   'PYMODULE'),
+  ('contextvars',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\contextvars.py',
+   'PYMODULE'),
+  ('copy',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\copy.py',
+   'PYMODULE'),
+  ('csv',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\csv.py',
+   'PYMODULE'),
+  ('ctypes',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\dataclasses.py',
+   'PYMODULE'),
+  ('datetime',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\datetime.py',
+   'PYMODULE'),
+  ('dateutil',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\dateutil\\__init__.py',
+   'PYMODULE'),
+  ('dateutil._common',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\dateutil\\_common.py',
+   'PYMODULE'),
+  ('dateutil._version',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\dateutil\\_version.py',
+   'PYMODULE'),
+  ('dateutil.easter',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\dateutil\\easter.py',
+   'PYMODULE'),
+  ('dateutil.parser',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\dateutil\\parser\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.parser._parser',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\dateutil\\parser\\_parser.py',
+   'PYMODULE'),
+  ('dateutil.parser.isoparser',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\dateutil\\parser\\isoparser.py',
+   'PYMODULE'),
+  ('dateutil.relativedelta',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\dateutil\\relativedelta.py',
+   'PYMODULE'),
+  ('dateutil.rrule',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\dateutil\\rrule.py',
+   'PYMODULE'),
+  ('dateutil.tz',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\dateutil\\tz\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.tz._common',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\dateutil\\tz\\_common.py',
+   'PYMODULE'),
+  ('dateutil.tz._factories',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\dateutil\\tz\\_factories.py',
+   'PYMODULE'),
+  ('dateutil.tz.tz',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\dateutil\\tz\\tz.py',
+   'PYMODULE'),
+  ('dateutil.tz.win',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\dateutil\\tz\\win.py',
+   'PYMODULE'),
+  ('dateutil.zoneinfo',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\dateutil\\zoneinfo\\__init__.py',
+   'PYMODULE'),
+  ('decimal',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\decimal.py',
+   'PYMODULE'),
+  ('difflib',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\difflib.py',
+   'PYMODULE'),
+  ('dis',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\dis.py',
+   'PYMODULE'),
+  ('doctest',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\doctest.py',
+   'PYMODULE'),
+  ('docx',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\__init__.py',
+   'PYMODULE'),
+  ('docx.api',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\api.py',
+   'PYMODULE'),
+  ('docx.blkcntnr',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\blkcntnr.py',
+   'PYMODULE'),
+  ('docx.comments',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\comments.py',
+   'PYMODULE'),
+  ('docx.dml',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\dml\\__init__.py',
+   'PYMODULE'),
+  ('docx.dml.color',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\dml\\color.py',
+   'PYMODULE'),
+  ('docx.document',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\document.py',
+   'PYMODULE'),
+  ('docx.drawing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\drawing\\__init__.py',
+   'PYMODULE'),
+  ('docx.enum',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\enum\\__init__.py',
+   'PYMODULE'),
+  ('docx.enum.base',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\enum\\base.py',
+   'PYMODULE'),
+  ('docx.enum.dml',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\enum\\dml.py',
+   'PYMODULE'),
+  ('docx.enum.section',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\enum\\section.py',
+   'PYMODULE'),
+  ('docx.enum.shape',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\enum\\shape.py',
+   'PYMODULE'),
+  ('docx.enum.style',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\enum\\style.py',
+   'PYMODULE'),
+  ('docx.enum.table',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\enum\\table.py',
+   'PYMODULE'),
+  ('docx.enum.text',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\enum\\text.py',
+   'PYMODULE'),
+  ('docx.exceptions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\exceptions.py',
+   'PYMODULE'),
+  ('docx.image',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\image\\__init__.py',
+   'PYMODULE'),
+  ('docx.image.bmp',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\image\\bmp.py',
+   'PYMODULE'),
+  ('docx.image.constants',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\image\\constants.py',
+   'PYMODULE'),
+  ('docx.image.exceptions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\image\\exceptions.py',
+   'PYMODULE'),
+  ('docx.image.gif',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\image\\gif.py',
+   'PYMODULE'),
+  ('docx.image.helpers',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\image\\helpers.py',
+   'PYMODULE'),
+  ('docx.image.image',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\image\\image.py',
+   'PYMODULE'),
+  ('docx.image.jpeg',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\image\\jpeg.py',
+   'PYMODULE'),
+  ('docx.image.png',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\image\\png.py',
+   'PYMODULE'),
+  ('docx.image.tiff',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\image\\tiff.py',
+   'PYMODULE'),
+  ('docx.opc',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\opc\\__init__.py',
+   'PYMODULE'),
+  ('docx.opc.constants',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\opc\\constants.py',
+   'PYMODULE'),
+  ('docx.opc.coreprops',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\opc\\coreprops.py',
+   'PYMODULE'),
+  ('docx.opc.exceptions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\opc\\exceptions.py',
+   'PYMODULE'),
+  ('docx.opc.oxml',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\opc\\oxml.py',
+   'PYMODULE'),
+  ('docx.opc.package',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\opc\\package.py',
+   'PYMODULE'),
+  ('docx.opc.packuri',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\opc\\packuri.py',
+   'PYMODULE'),
+  ('docx.opc.part',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\opc\\part.py',
+   'PYMODULE'),
+  ('docx.opc.parts',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\opc\\parts\\__init__.py',
+   'PYMODULE'),
+  ('docx.opc.parts.coreprops',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\opc\\parts\\coreprops.py',
+   'PYMODULE'),
+  ('docx.opc.phys_pkg',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\opc\\phys_pkg.py',
+   'PYMODULE'),
+  ('docx.opc.pkgreader',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\opc\\pkgreader.py',
+   'PYMODULE'),
+  ('docx.opc.pkgwriter',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\opc\\pkgwriter.py',
+   'PYMODULE'),
+  ('docx.opc.rel',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\opc\\rel.py',
+   'PYMODULE'),
+  ('docx.opc.shared',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\opc\\shared.py',
+   'PYMODULE'),
+  ('docx.opc.spec',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\opc\\spec.py',
+   'PYMODULE'),
+  ('docx.oxml',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\__init__.py',
+   'PYMODULE'),
+  ('docx.oxml.comments',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\comments.py',
+   'PYMODULE'),
+  ('docx.oxml.coreprops',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\coreprops.py',
+   'PYMODULE'),
+  ('docx.oxml.document',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\document.py',
+   'PYMODULE'),
+  ('docx.oxml.drawing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\drawing.py',
+   'PYMODULE'),
+  ('docx.oxml.exceptions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\exceptions.py',
+   'PYMODULE'),
+  ('docx.oxml.ns',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\ns.py',
+   'PYMODULE'),
+  ('docx.oxml.numbering',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\numbering.py',
+   'PYMODULE'),
+  ('docx.oxml.parser',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\parser.py',
+   'PYMODULE'),
+  ('docx.oxml.section',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\section.py',
+   'PYMODULE'),
+  ('docx.oxml.settings',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\settings.py',
+   'PYMODULE'),
+  ('docx.oxml.shape',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\shape.py',
+   'PYMODULE'),
+  ('docx.oxml.shared',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\shared.py',
+   'PYMODULE'),
+  ('docx.oxml.simpletypes',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\simpletypes.py',
+   'PYMODULE'),
+  ('docx.oxml.styles',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\styles.py',
+   'PYMODULE'),
+  ('docx.oxml.table',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\table.py',
+   'PYMODULE'),
+  ('docx.oxml.text',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\text\\__init__.py',
+   'PYMODULE'),
+  ('docx.oxml.text.font',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\text\\font.py',
+   'PYMODULE'),
+  ('docx.oxml.text.hyperlink',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\text\\hyperlink.py',
+   'PYMODULE'),
+  ('docx.oxml.text.pagebreak',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\text\\pagebreak.py',
+   'PYMODULE'),
+  ('docx.oxml.text.paragraph',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\text\\paragraph.py',
+   'PYMODULE'),
+  ('docx.oxml.text.parfmt',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\text\\parfmt.py',
+   'PYMODULE'),
+  ('docx.oxml.text.run',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\text\\run.py',
+   'PYMODULE'),
+  ('docx.oxml.xmlchemy',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\oxml\\xmlchemy.py',
+   'PYMODULE'),
+  ('docx.package',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\package.py',
+   'PYMODULE'),
+  ('docx.parts',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\parts\\__init__.py',
+   'PYMODULE'),
+  ('docx.parts.comments',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\parts\\comments.py',
+   'PYMODULE'),
+  ('docx.parts.document',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\parts\\document.py',
+   'PYMODULE'),
+  ('docx.parts.hdrftr',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\parts\\hdrftr.py',
+   'PYMODULE'),
+  ('docx.parts.image',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\parts\\image.py',
+   'PYMODULE'),
+  ('docx.parts.numbering',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\parts\\numbering.py',
+   'PYMODULE'),
+  ('docx.parts.settings',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\parts\\settings.py',
+   'PYMODULE'),
+  ('docx.parts.story',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\parts\\story.py',
+   'PYMODULE'),
+  ('docx.parts.styles',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\parts\\styles.py',
+   'PYMODULE'),
+  ('docx.section',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\section.py',
+   'PYMODULE'),
+  ('docx.settings',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\settings.py',
+   'PYMODULE'),
+  ('docx.shape',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\shape.py',
+   'PYMODULE'),
+  ('docx.shared',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\shared.py',
+   'PYMODULE'),
+  ('docx.styles',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\styles\\__init__.py',
+   'PYMODULE'),
+  ('docx.styles.latent',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\styles\\latent.py',
+   'PYMODULE'),
+  ('docx.styles.style',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\styles\\style.py',
+   'PYMODULE'),
+  ('docx.styles.styles',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\styles\\styles.py',
+   'PYMODULE'),
+  ('docx.table',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\table.py',
+   'PYMODULE'),
+  ('docx.text',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\text\\__init__.py',
+   'PYMODULE'),
+  ('docx.text.font',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\text\\font.py',
+   'PYMODULE'),
+  ('docx.text.hyperlink',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\text\\hyperlink.py',
+   'PYMODULE'),
+  ('docx.text.pagebreak',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\text\\pagebreak.py',
+   'PYMODULE'),
+  ('docx.text.paragraph',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\text\\paragraph.py',
+   'PYMODULE'),
+  ('docx.text.parfmt',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\text\\parfmt.py',
+   'PYMODULE'),
+  ('docx.text.run',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\text\\run.py',
+   'PYMODULE'),
+  ('docx.text.tabstops',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\text\\tabstops.py',
+   'PYMODULE'),
+  ('docx.types',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\docx\\types.py',
+   'PYMODULE'),
+  ('email',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.generator',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email.header',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.message',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.parser',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.policy',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.utils',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\email\\utils.py',
+   'PYMODULE'),
+  ('et_xmlfile',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\et_xmlfile\\__init__.py',
+   'PYMODULE'),
+  ('et_xmlfile.incremental_tree',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\et_xmlfile\\incremental_tree.py',
+   'PYMODULE'),
+  ('et_xmlfile.xmlfile',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\et_xmlfile\\xmlfile.py',
+   'PYMODULE'),
+  ('fileinput',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\fileinput.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\fnmatch.py',
+   'PYMODULE'),
+  ('fractions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\fractions.py',
+   'PYMODULE'),
+  ('ftplib',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('getopt',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\getopt.py',
+   'PYMODULE'),
+  ('getpass',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\getpass.py',
+   'PYMODULE'),
+  ('gettext',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\gettext.py',
+   'PYMODULE'),
+  ('glob',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\glob.py',
+   'PYMODULE'),
+  ('gzip',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\gzip.py',
+   'PYMODULE'),
+  ('hashlib',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\hashlib.py',
+   'PYMODULE'),
+  ('hmac',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\hmac.py',
+   'PYMODULE'),
+  ('html',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\html\\entities.py',
+   'PYMODULE'),
+  ('http',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('http.client',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\http\\client.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http.server',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\http\\server.py',
+   'PYMODULE'),
+  ('importlib',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.resources._legacy',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\resources\\_legacy.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('inspect',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\inspect.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\ipaddress.py',
+   'PYMODULE'),
+  ('json',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('logging',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('lxml',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\__init__.py',
+   'PYMODULE'),
+  ('lxml.ElementInclude',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\ElementInclude.py',
+   'PYMODULE'),
+  ('lxml.cssselect',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\cssselect.py',
+   'PYMODULE'),
+  ('lxml.doctestcompare',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\doctestcompare.py',
+   'PYMODULE'),
+  ('lxml.html',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\html\\__init__.py',
+   'PYMODULE'),
+  ('lxml.html.ElementSoup',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\html\\ElementSoup.py',
+   'PYMODULE'),
+  ('lxml.html._diffcommand',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\html\\_diffcommand.py',
+   'PYMODULE'),
+  ('lxml.html._html5builder',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\html\\_html5builder.py',
+   'PYMODULE'),
+  ('lxml.html._setmixin',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\html\\_setmixin.py',
+   'PYMODULE'),
+  ('lxml.html.builder',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\html\\builder.py',
+   'PYMODULE'),
+  ('lxml.html.clean',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\html\\clean.py',
+   'PYMODULE'),
+  ('lxml.html.defs',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\html\\defs.py',
+   'PYMODULE'),
+  ('lxml.html.formfill',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\html\\formfill.py',
+   'PYMODULE'),
+  ('lxml.html.html5parser',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\html\\html5parser.py',
+   'PYMODULE'),
+  ('lxml.html.soupparser',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\html\\soupparser.py',
+   'PYMODULE'),
+  ('lxml.html.usedoctest',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\html\\usedoctest.py',
+   'PYMODULE'),
+  ('lxml.includes',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\includes\\__init__.py',
+   'PYMODULE'),
+  ('lxml.includes.extlibs',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\includes\\extlibs\\__init__.py',
+   'PYMODULE'),
+  ('lxml.includes.libexslt',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\includes\\libexslt\\__init__.py',
+   'PYMODULE'),
+  ('lxml.includes.libxml',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\includes\\libxml\\__init__.py',
+   'PYMODULE'),
+  ('lxml.includes.libxslt',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\includes\\libxslt\\__init__.py',
+   'PYMODULE'),
+  ('lxml.isoschematron',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\isoschematron\\__init__.py',
+   'PYMODULE'),
+  ('lxml.pyclasslookup',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\pyclasslookup.py',
+   'PYMODULE'),
+  ('lxml.usedoctest',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\lxml\\usedoctest.py',
+   'PYMODULE'),
+  ('lzma',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\lzma.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('netrc',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\netrc.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\nturl2path.py',
+   'PYMODULE'),
+  ('numbers',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\numbers.py',
+   'PYMODULE'),
+  ('numpy',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE'),
+  ('numpy._array_api_info',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_array_api_info.py',
+   'PYMODULE'),
+  ('numpy._core',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\__init__.py',
+   'PYMODULE'),
+  ('numpy._core._add_newdocs',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy._core._add_newdocs_scalars',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\_add_newdocs_scalars.py',
+   'PYMODULE'),
+  ('numpy._core._asarray',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy._core._dtype',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy._core._dtype_ctypes',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy._core._exceptions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy._core._internal',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\_internal.py',
+   'PYMODULE'),
+  ('numpy._core._machar',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\_machar.py',
+   'PYMODULE'),
+  ('numpy._core._methods',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\_methods.py',
+   'PYMODULE'),
+  ('numpy._core._string_helpers',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy._core._type_aliases',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy._core._ufunc_config',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy._core.arrayprint',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\arrayprint.py',
+   'PYMODULE'),
+  ('numpy._core.defchararray',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy._core.einsumfunc',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy._core.fromnumeric',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy._core.function_base',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\function_base.py',
+   'PYMODULE'),
+  ('numpy._core.getlimits',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy._core.memmap',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\memmap.py',
+   'PYMODULE'),
+  ('numpy._core.multiarray',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy._core.numeric',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\numeric.py',
+   'PYMODULE'),
+  ('numpy._core.numerictypes',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy._core.overrides',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\overrides.py',
+   'PYMODULE'),
+  ('numpy._core.printoptions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\printoptions.py',
+   'PYMODULE'),
+  ('numpy._core.records',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\records.py',
+   'PYMODULE'),
+  ('numpy._core.shape_base',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\shape_base.py',
+   'PYMODULE'),
+  ('numpy._core.strings',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\strings.py',
+   'PYMODULE'),
+  ('numpy._core.umath',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_core\\umath.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy._expired_attrs_2_0',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_expired_attrs_2_0.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy._typing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy._typing._add_docstring',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_typing\\_add_docstring.py',
+   'PYMODULE'),
+  ('numpy._typing._array_like',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_typing\\_array_like.py',
+   'PYMODULE'),
+  ('numpy._typing._char_codes',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_typing\\_char_codes.py',
+   'PYMODULE'),
+  ('numpy._typing._dtype_like',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py',
+   'PYMODULE'),
+  ('numpy._typing._nbit',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_typing\\_nbit.py',
+   'PYMODULE'),
+  ('numpy._typing._nbit_base',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_typing\\_nbit_base.py',
+   'PYMODULE'),
+  ('numpy._typing._nested_sequence',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py',
+   'PYMODULE'),
+  ('numpy._typing._scalars',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_typing\\_scalars.py',
+   'PYMODULE'),
+  ('numpy._typing._shape',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_typing\\_shape.py',
+   'PYMODULE'),
+  ('numpy._typing._ufunc',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_typing\\_ufunc.py',
+   'PYMODULE'),
+  ('numpy._utils',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_utils\\__init__.py',
+   'PYMODULE'),
+  ('numpy._utils._convertions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_utils\\_convertions.py',
+   'PYMODULE'),
+  ('numpy._utils._inspect',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\_utils\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.char',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\char\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._utils',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\core\\_utils.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\ctypeslib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib._ctypeslib',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\ctypeslib\\_ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.dtypes',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\dtypes.py',
+   'PYMODULE'),
+  ('numpy.exceptions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\exceptions.py',
+   'PYMODULE'),
+  ('numpy.f2py',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\__init__.py',
+   'PYMODULE'),
+  ('numpy.f2py.__version__',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\__version__.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\_backends\\__init__.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends._backend',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\_backends\\_backend.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends._distutils',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\_backends\\_distutils.py',
+   'PYMODULE'),
+  ('numpy.f2py._backends._meson',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\_backends\\_meson.py',
+   'PYMODULE'),
+  ('numpy.f2py._isocbind',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\_isocbind.py',
+   'PYMODULE'),
+  ('numpy.f2py.auxfuncs',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\auxfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.capi_maps',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\capi_maps.py',
+   'PYMODULE'),
+  ('numpy.f2py.cb_rules',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\cb_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.cfuncs',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\cfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.common_rules',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\common_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.crackfortran',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\crackfortran.py',
+   'PYMODULE'),
+  ('numpy.f2py.diagnose',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\diagnose.py',
+   'PYMODULE'),
+  ('numpy.f2py.f2py2e',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\f2py2e.py',
+   'PYMODULE'),
+  ('numpy.f2py.f90mod_rules',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\f90mod_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.func2subr',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\func2subr.py',
+   'PYMODULE'),
+  ('numpy.f2py.rules',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.symbolic',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\symbolic.py',
+   'PYMODULE'),
+  ('numpy.f2py.use_rules',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\f2py\\use_rules.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft._helper',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\fft\\_helper.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy.fft.helper',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\fft\\helper.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib._array_utils_impl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_array_utils_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._arraypad_impl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_arraypad_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._arraysetops_impl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_arraysetops_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._arrayterator_impl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_arrayterator_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib._format_impl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_format_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._function_base_impl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_function_base_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._histograms_impl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_histograms_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._index_tricks_impl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_index_tricks_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.lib._nanfunctions_impl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_nanfunctions_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._npyio_impl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_npyio_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._polynomial_impl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_polynomial_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._scimath_impl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_scimath_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._shape_base_impl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_shape_base_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._stride_tricks_impl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_stride_tricks_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._twodim_base_impl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_twodim_base_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._type_check_impl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_type_check_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._ufunclike_impl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_ufunclike_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._utils_impl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_utils_impl.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.array_utils',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\array_utils.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.introspect',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\introspect.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.lib.recfunctions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\recfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg._linalg',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\linalg\\_linalg.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.matlib',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\matlib.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('numpy.rec',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\rec\\__init__.py',
+   'PYMODULE'),
+  ('numpy.strings',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\strings\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.extbuild',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\testing\\_private\\extbuild.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.testing.overrides',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\testing\\overrides.py',
+   'PYMODULE'),
+  ('numpy.typing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('opcode',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\opcode.py',
+   'PYMODULE'),
+  ('openpyxl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl._constants',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\_constants.py',
+   'PYMODULE'),
+  ('openpyxl.cell',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\cell\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.cell._writer',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\cell\\_writer.py',
+   'PYMODULE'),
+  ('openpyxl.cell.cell',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\cell\\cell.py',
+   'PYMODULE'),
+  ('openpyxl.cell.read_only',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\cell\\read_only.py',
+   'PYMODULE'),
+  ('openpyxl.cell.rich_text',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\cell\\rich_text.py',
+   'PYMODULE'),
+  ('openpyxl.cell.text',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\cell\\text.py',
+   'PYMODULE'),
+  ('openpyxl.chart',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.chart._3d',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\_3d.py',
+   'PYMODULE'),
+  ('openpyxl.chart._chart',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.area_chart',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\area_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.axis',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\axis.py',
+   'PYMODULE'),
+  ('openpyxl.chart.bar_chart',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\bar_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.bubble_chart',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\bubble_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.chartspace',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\chartspace.py',
+   'PYMODULE'),
+  ('openpyxl.chart.data_source',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\data_source.py',
+   'PYMODULE'),
+  ('openpyxl.chart.descriptors',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\descriptors.py',
+   'PYMODULE'),
+  ('openpyxl.chart.error_bar',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\error_bar.py',
+   'PYMODULE'),
+  ('openpyxl.chart.label',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\label.py',
+   'PYMODULE'),
+  ('openpyxl.chart.layout',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\layout.py',
+   'PYMODULE'),
+  ('openpyxl.chart.legend',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\legend.py',
+   'PYMODULE'),
+  ('openpyxl.chart.line_chart',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\line_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.marker',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\marker.py',
+   'PYMODULE'),
+  ('openpyxl.chart.picture',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\picture.py',
+   'PYMODULE'),
+  ('openpyxl.chart.pie_chart',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\pie_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.pivot',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\pivot.py',
+   'PYMODULE'),
+  ('openpyxl.chart.plotarea',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\plotarea.py',
+   'PYMODULE'),
+  ('openpyxl.chart.print_settings',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\print_settings.py',
+   'PYMODULE'),
+  ('openpyxl.chart.radar_chart',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\radar_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.reader',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\reader.py',
+   'PYMODULE'),
+  ('openpyxl.chart.reference',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\reference.py',
+   'PYMODULE'),
+  ('openpyxl.chart.scatter_chart',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\scatter_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.series',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\series.py',
+   'PYMODULE'),
+  ('openpyxl.chart.series_factory',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\series_factory.py',
+   'PYMODULE'),
+  ('openpyxl.chart.shapes',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\shapes.py',
+   'PYMODULE'),
+  ('openpyxl.chart.stock_chart',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\stock_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.surface_chart',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\surface_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.text',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\text.py',
+   'PYMODULE'),
+  ('openpyxl.chart.title',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\title.py',
+   'PYMODULE'),
+  ('openpyxl.chart.trendline',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\trendline.py',
+   'PYMODULE'),
+  ('openpyxl.chart.updown_bars',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chart\\updown_bars.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chartsheet\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.chartsheet',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chartsheet\\chartsheet.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.custom',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chartsheet\\custom.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.properties',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chartsheet\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.protection',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chartsheet\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.publish',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chartsheet\\publish.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.relation',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chartsheet\\relation.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.views',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\chartsheet\\views.py',
+   'PYMODULE'),
+  ('openpyxl.comments',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\comments\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.comments.author',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\comments\\author.py',
+   'PYMODULE'),
+  ('openpyxl.comments.comment_sheet',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\comments\\comment_sheet.py',
+   'PYMODULE'),
+  ('openpyxl.comments.comments',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\comments\\comments.py',
+   'PYMODULE'),
+  ('openpyxl.comments.shape_writer',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\comments\\shape_writer.py',
+   'PYMODULE'),
+  ('openpyxl.compat',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\compat\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.compat.numbers',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\compat\\numbers.py',
+   'PYMODULE'),
+  ('openpyxl.compat.strings',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\compat\\strings.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\descriptors\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.base',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\descriptors\\base.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.container',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\descriptors\\container.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.excel',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\descriptors\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.namespace',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\descriptors\\namespace.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.nested',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\descriptors\\nested.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.sequence',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\descriptors\\sequence.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.serialisable',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\descriptors\\serialisable.py',
+   'PYMODULE'),
+  ('openpyxl.drawing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\drawing\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.colors',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\drawing\\colors.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.connector',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\drawing\\connector.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.drawing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\drawing\\drawing.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.effect',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\drawing\\effect.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.fill',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\drawing\\fill.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.geometry',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\drawing\\geometry.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.graphic',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\drawing\\graphic.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.image',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\drawing\\image.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.line',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\drawing\\line.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.picture',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\drawing\\picture.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.properties',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\drawing\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.relation',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\drawing\\relation.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.spreadsheet_drawing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\drawing\\spreadsheet_drawing.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.text',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\drawing\\text.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.xdr',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\drawing\\xdr.py',
+   'PYMODULE'),
+  ('openpyxl.formatting',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\formatting\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.formatting.formatting',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\formatting\\formatting.py',
+   'PYMODULE'),
+  ('openpyxl.formatting.rule',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\formatting\\rule.py',
+   'PYMODULE'),
+  ('openpyxl.formula',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\formula\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.formula.tokenizer',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\formula\\tokenizer.py',
+   'PYMODULE'),
+  ('openpyxl.formula.translate',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\formula\\translate.py',
+   'PYMODULE'),
+  ('openpyxl.packaging',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.core',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\packaging\\core.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.custom',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\packaging\\custom.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.extended',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\packaging\\extended.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.manifest',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\packaging\\manifest.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.relationship',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\packaging\\relationship.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.workbook',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\packaging\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.pivot',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\pivot\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.cache',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\pivot\\cache.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.fields',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\pivot\\fields.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.record',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\pivot\\record.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.table',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\pivot\\table.py',
+   'PYMODULE'),
+  ('openpyxl.reader',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\reader\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.reader.drawings',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\reader\\drawings.py',
+   'PYMODULE'),
+  ('openpyxl.reader.excel',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\reader\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.reader.strings',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\reader\\strings.py',
+   'PYMODULE'),
+  ('openpyxl.reader.workbook',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\reader\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.styles',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\styles\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.styles.alignment',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\styles\\alignment.py',
+   'PYMODULE'),
+  ('openpyxl.styles.borders',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\styles\\borders.py',
+   'PYMODULE'),
+  ('openpyxl.styles.builtins',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\styles\\builtins.py',
+   'PYMODULE'),
+  ('openpyxl.styles.cell_style',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\styles\\cell_style.py',
+   'PYMODULE'),
+  ('openpyxl.styles.colors',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\styles\\colors.py',
+   'PYMODULE'),
+  ('openpyxl.styles.differential',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\styles\\differential.py',
+   'PYMODULE'),
+  ('openpyxl.styles.fills',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\styles\\fills.py',
+   'PYMODULE'),
+  ('openpyxl.styles.fonts',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\styles\\fonts.py',
+   'PYMODULE'),
+  ('openpyxl.styles.named_styles',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\styles\\named_styles.py',
+   'PYMODULE'),
+  ('openpyxl.styles.numbers',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\styles\\numbers.py',
+   'PYMODULE'),
+  ('openpyxl.styles.protection',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\styles\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.styles.proxy',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\styles\\proxy.py',
+   'PYMODULE'),
+  ('openpyxl.styles.styleable',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\styles\\styleable.py',
+   'PYMODULE'),
+  ('openpyxl.styles.stylesheet',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\styles\\stylesheet.py',
+   'PYMODULE'),
+  ('openpyxl.styles.table',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\styles\\table.py',
+   'PYMODULE'),
+  ('openpyxl.utils',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\utils\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.utils.bound_dictionary',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\utils\\bound_dictionary.py',
+   'PYMODULE'),
+  ('openpyxl.utils.cell',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\utils\\cell.py',
+   'PYMODULE'),
+  ('openpyxl.utils.datetime',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\utils\\datetime.py',
+   'PYMODULE'),
+  ('openpyxl.utils.escape',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\utils\\escape.py',
+   'PYMODULE'),
+  ('openpyxl.utils.exceptions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\utils\\exceptions.py',
+   'PYMODULE'),
+  ('openpyxl.utils.formulas',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\utils\\formulas.py',
+   'PYMODULE'),
+  ('openpyxl.utils.indexed_list',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\utils\\indexed_list.py',
+   'PYMODULE'),
+  ('openpyxl.utils.protection',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\utils\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.utils.units',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\utils\\units.py',
+   'PYMODULE'),
+  ('openpyxl.workbook',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\workbook\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.workbook._writer',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\workbook\\_writer.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.child',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\workbook\\child.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.defined_name',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\workbook\\defined_name.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_link',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\workbook\\external_link\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_link.external',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\workbook\\external_link\\external.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_reference',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\workbook\\external_reference.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.function_group',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\workbook\\function_group.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.properties',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\workbook\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.protection',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\workbook\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.smart_tags',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\workbook\\smart_tags.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.views',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\workbook\\views.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.web',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\workbook\\web.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.workbook',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\workbook\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._read_only',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\_read_only.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._reader',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\_reader.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._write_only',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\_write_only.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet._writer',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\_writer.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.cell_range',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\cell_range.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.copier',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\copier.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.datavalidation',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\datavalidation.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.dimensions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\dimensions.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.drawing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\drawing.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.filters',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\filters.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.formula',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\formula.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.header_footer',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\header_footer.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.hyperlink',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\hyperlink.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.merge',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\merge.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.page',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\page.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.pagebreak',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\pagebreak.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.print_settings',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\print_settings.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.properties',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.protection',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.related',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\related.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.scenario',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\scenario.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.table',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\table.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.views',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\views.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.worksheet',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\worksheet\\worksheet.py',
+   'PYMODULE'),
+  ('openpyxl.writer',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\writer\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.writer.excel',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\writer\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.writer.theme',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\writer\\theme.py',
+   'PYMODULE'),
+  ('openpyxl.xml',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\xml\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.xml.constants',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\xml\\constants.py',
+   'PYMODULE'),
+  ('openpyxl.xml.functions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\openpyxl\\xml\\functions.py',
+   'PYMODULE'),
+  ('optparse',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\optparse.py',
+   'PYMODULE'),
+  ('pandas',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\__init__.py',
+   'PYMODULE'),
+  ('pandas._config',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\_config\\__init__.py',
+   'PYMODULE'),
+  ('pandas._config.config',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\_config\\config.py',
+   'PYMODULE'),
+  ('pandas._config.dates',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\_config\\dates.py',
+   'PYMODULE'),
+  ('pandas._config.display',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\_config\\display.py',
+   'PYMODULE'),
+  ('pandas._config.localization',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\_config\\localization.py',
+   'PYMODULE'),
+  ('pandas._libs',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\_libs\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.tslibs',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\_libs\\tslibs\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.window',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\_libs\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas._testing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\_testing\\__init__.py',
+   'PYMODULE'),
+  ('pandas._testing._io',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\_testing\\_io.py',
+   'PYMODULE'),
+  ('pandas._testing._warnings',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\_testing\\_warnings.py',
+   'PYMODULE'),
+  ('pandas._testing.asserters',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\_testing\\asserters.py',
+   'PYMODULE'),
+  ('pandas._testing.compat',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\_testing\\compat.py',
+   'PYMODULE'),
+  ('pandas._testing.contexts',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\_testing\\contexts.py',
+   'PYMODULE'),
+  ('pandas._typing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\_typing.py',
+   'PYMODULE'),
+  ('pandas._version',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\_version.py',
+   'PYMODULE'),
+  ('pandas._version_meson',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\_version_meson.py',
+   'PYMODULE'),
+  ('pandas.api',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\api\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.extensions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\api\\extensions\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.indexers',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\api\\indexers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.interchange',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\api\\interchange\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.types',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\api\\types\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.typing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\api\\typing\\__init__.py',
+   'PYMODULE'),
+  ('pandas.arrays',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\compat\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat._constants',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\compat\\_constants.py',
+   'PYMODULE'),
+  ('pandas.compat._optional',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\compat\\_optional.py',
+   'PYMODULE'),
+  ('pandas.compat.compressors',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\compat\\compressors.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\compat\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy.function',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\compat\\numpy\\function.py',
+   'PYMODULE'),
+  ('pandas.compat.pickle_compat',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\compat\\pickle_compat.py',
+   'PYMODULE'),
+  ('pandas.compat.pyarrow',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\compat\\pyarrow.py',
+   'PYMODULE'),
+  ('pandas.core',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core._numba',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\_numba\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core._numba.executor',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\_numba\\executor.py',
+   'PYMODULE'),
+  ('pandas.core._numba.extensions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\_numba\\extensions.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\_numba\\kernels\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.mean_',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\_numba\\kernels\\mean_.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.min_max_',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\_numba\\kernels\\min_max_.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.shared',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\_numba\\kernels\\shared.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.sum_',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\_numba\\kernels\\sum_.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.var_',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\_numba\\kernels\\var_.py',
+   'PYMODULE'),
+  ('pandas.core.accessor',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.algorithms',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\algorithms.py',
+   'PYMODULE'),
+  ('pandas.core.api',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\api.py',
+   'PYMODULE'),
+  ('pandas.core.apply',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\apply.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\array_algos\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.datetimelike_accumulations',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\array_algos\\datetimelike_accumulations.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.masked_accumulations',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\array_algos\\masked_accumulations.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.masked_reductions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\array_algos\\masked_reductions.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.putmask',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\array_algos\\putmask.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.quantile',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\array_algos\\quantile.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.replace',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\array_algos\\replace.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.take',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\array_algos\\take.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.transforms',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\array_algos\\transforms.py',
+   'PYMODULE'),
+  ('pandas.core.arraylike',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arraylike.py',
+   'PYMODULE'),
+  ('pandas.core.arrays',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._arrow_string_mixins',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\_arrow_string_mixins.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._mixins',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\_mixins.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._ranges',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\_ranges.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._utils',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\_utils.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow._arrow_utils',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\_arrow_utils.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow.accessors',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\accessors.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow.array',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\array.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow.extension_types',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\extension_types.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.base',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\base.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.boolean',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\boolean.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.categorical',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimelike',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimes',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.floating',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\floating.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.integer',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\integer.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.interval',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.masked',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\masked.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numeric',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numpy_',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\numpy_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.period',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\period.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\sparse\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.accessor',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\sparse\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.array',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\sparse\\array.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.scipy_sparse',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\sparse\\scipy_sparse.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\string_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_arrow',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\string_arrow.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.timedeltas',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\arrays\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.base',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\base.py',
+   'PYMODULE'),
+  ('pandas.core.common',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\common.py',
+   'PYMODULE'),
+  ('pandas.core.computation',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\computation\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.computation.align',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\computation\\align.py',
+   'PYMODULE'),
+  ('pandas.core.computation.api',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\computation\\api.py',
+   'PYMODULE'),
+  ('pandas.core.computation.check',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\computation\\check.py',
+   'PYMODULE'),
+  ('pandas.core.computation.common',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\computation\\common.py',
+   'PYMODULE'),
+  ('pandas.core.computation.engines',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\computation\\engines.py',
+   'PYMODULE'),
+  ('pandas.core.computation.eval',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\computation\\eval.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expr',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\computation\\expr.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expressions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\computation\\expressions.py',
+   'PYMODULE'),
+  ('pandas.core.computation.ops',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\computation\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.computation.parsing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\computation\\parsing.py',
+   'PYMODULE'),
+  ('pandas.core.computation.pytables',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\computation\\pytables.py',
+   'PYMODULE'),
+  ('pandas.core.computation.scope',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\computation\\scope.py',
+   'PYMODULE'),
+  ('pandas.core.config_init',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\config_init.py',
+   'PYMODULE'),
+  ('pandas.core.construction',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\dtypes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.api',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\dtypes\\api.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.astype',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\dtypes\\astype.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.base',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\dtypes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.cast',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\dtypes\\cast.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.common',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\dtypes\\common.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.concat',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\dtypes\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.dtypes',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\dtypes\\dtypes.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.generic',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\dtypes\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.inference',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\dtypes\\inference.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.missing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\dtypes\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.flags',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\flags.py',
+   'PYMODULE'),
+  ('pandas.core.frame',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\frame.py',
+   'PYMODULE'),
+  ('pandas.core.generic',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.groupby',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\groupby\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.base',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\groupby\\base.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.categorical',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\groupby\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.generic',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\groupby\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.groupby',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\groupby\\groupby.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.grouper',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\groupby\\grouper.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.indexing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\groupby\\indexing.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.numba_',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\groupby\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.ops',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\groupby\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.indexers',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\indexers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.indexers.objects',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\indexers\\objects.py',
+   'PYMODULE'),
+  ('pandas.core.indexers.utils',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\indexers\\utils.py',
+   'PYMODULE'),
+  ('pandas.core.indexes',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\indexes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.accessors',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\indexes\\accessors.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.api',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\indexes\\api.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.base',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\indexes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.category',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\indexes\\category.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimelike',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\indexes\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimes',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\indexes\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.extension',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\indexes\\extension.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.frozen',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\indexes\\frozen.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.interval',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\indexes\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.multi',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\indexes\\multi.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.period',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\indexes\\period.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.range',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\indexes\\range.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.timedeltas',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\indexes\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.indexing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\indexing.py',
+   'PYMODULE'),
+  ('pandas.core.interchange',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\interchange\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.buffer',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\interchange\\buffer.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.column',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\interchange\\column.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.dataframe',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\interchange\\dataframe.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.dataframe_protocol',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\interchange\\dataframe_protocol.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.from_dataframe',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\interchange\\from_dataframe.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.utils',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\interchange\\utils.py',
+   'PYMODULE'),
+  ('pandas.core.internals',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\internals\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.internals.api',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\internals\\api.py',
+   'PYMODULE'),
+  ('pandas.core.internals.array_manager',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\internals\\array_manager.py',
+   'PYMODULE'),
+  ('pandas.core.internals.base',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\internals\\base.py',
+   'PYMODULE'),
+  ('pandas.core.internals.blocks',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\internals\\blocks.py',
+   'PYMODULE'),
+  ('pandas.core.internals.concat',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\internals\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.internals.construction',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\internals\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.internals.managers',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\internals\\managers.py',
+   'PYMODULE'),
+  ('pandas.core.internals.ops',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\internals\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.methods',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\methods\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.methods.describe',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\methods\\describe.py',
+   'PYMODULE'),
+  ('pandas.core.methods.selectn',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\methods\\selectn.py',
+   'PYMODULE'),
+  ('pandas.core.methods.to_dict',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\methods\\to_dict.py',
+   'PYMODULE'),
+  ('pandas.core.missing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.nanops',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\nanops.py',
+   'PYMODULE'),
+  ('pandas.core.ops',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\ops\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.ops.array_ops',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\ops\\array_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.common',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\ops\\common.py',
+   'PYMODULE'),
+  ('pandas.core.ops.dispatch',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\ops\\dispatch.py',
+   'PYMODULE'),
+  ('pandas.core.ops.docstrings',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\ops\\docstrings.py',
+   'PYMODULE'),
+  ('pandas.core.ops.invalid',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\ops\\invalid.py',
+   'PYMODULE'),
+  ('pandas.core.ops.mask_ops',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\ops\\mask_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.missing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\ops\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.resample',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\resample.py',
+   'PYMODULE'),
+  ('pandas.core.reshape',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\reshape\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.api',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\reshape\\api.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.concat',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\reshape\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.encoding',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\reshape\\encoding.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.melt',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\reshape\\melt.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.merge',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\reshape\\merge.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.pivot',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\reshape\\pivot.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.reshape',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\reshape\\reshape.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.tile',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\reshape\\tile.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.util',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\reshape\\util.py',
+   'PYMODULE'),
+  ('pandas.core.roperator',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\roperator.py',
+   'PYMODULE'),
+  ('pandas.core.sample',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\sample.py',
+   'PYMODULE'),
+  ('pandas.core.series',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\series.py',
+   'PYMODULE'),
+  ('pandas.core.shared_docs',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\shared_docs.py',
+   'PYMODULE'),
+  ('pandas.core.sorting',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\sorting.py',
+   'PYMODULE'),
+  ('pandas.core.strings',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\strings\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.strings.accessor',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\strings\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.strings.base',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\strings\\base.py',
+   'PYMODULE'),
+  ('pandas.core.strings.object_array',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\strings\\object_array.py',
+   'PYMODULE'),
+  ('pandas.core.tools',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\tools\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.tools.datetimes',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\tools\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.tools.numeric',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\tools\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.tools.timedeltas',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\tools\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.tools.times',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\tools\\times.py',
+   'PYMODULE'),
+  ('pandas.core.util',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.util.hashing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\util\\hashing.py',
+   'PYMODULE'),
+  ('pandas.core.util.numba_',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\util\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.window',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.window.common',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\window\\common.py',
+   'PYMODULE'),
+  ('pandas.core.window.doc',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\window\\doc.py',
+   'PYMODULE'),
+  ('pandas.core.window.ewm',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\window\\ewm.py',
+   'PYMODULE'),
+  ('pandas.core.window.expanding',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\window\\expanding.py',
+   'PYMODULE'),
+  ('pandas.core.window.numba_',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\window\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.window.online',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\window\\online.py',
+   'PYMODULE'),
+  ('pandas.core.window.rolling',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\core\\window\\rolling.py',
+   'PYMODULE'),
+  ('pandas.errors',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\errors\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io._util',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\_util.py',
+   'PYMODULE'),
+  ('pandas.io.api',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\api.py',
+   'PYMODULE'),
+  ('pandas.io.clipboard',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\clipboard\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.clipboards',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\clipboards.py',
+   'PYMODULE'),
+  ('pandas.io.common',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\common.py',
+   'PYMODULE'),
+  ('pandas.io.excel',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\excel\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.excel._base',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\excel\\_base.py',
+   'PYMODULE'),
+  ('pandas.io.excel._calamine',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\excel\\_calamine.py',
+   'PYMODULE'),
+  ('pandas.io.excel._odfreader',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\excel\\_odfreader.py',
+   'PYMODULE'),
+  ('pandas.io.excel._odswriter',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\excel\\_odswriter.py',
+   'PYMODULE'),
+  ('pandas.io.excel._openpyxl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\excel\\_openpyxl.py',
+   'PYMODULE'),
+  ('pandas.io.excel._pyxlsb',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\excel\\_pyxlsb.py',
+   'PYMODULE'),
+  ('pandas.io.excel._util',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\excel\\_util.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlrd',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\excel\\_xlrd.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlsxwriter',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\excel\\_xlsxwriter.py',
+   'PYMODULE'),
+  ('pandas.io.feather_format',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\feather_format.py',
+   'PYMODULE'),
+  ('pandas.io.formats',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\formats\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.formats._color_data',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\formats\\_color_data.py',
+   'PYMODULE'),
+  ('pandas.io.formats.console',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\formats\\console.py',
+   'PYMODULE'),
+  ('pandas.io.formats.css',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\formats\\css.py',
+   'PYMODULE'),
+  ('pandas.io.formats.csvs',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\formats\\csvs.py',
+   'PYMODULE'),
+  ('pandas.io.formats.excel',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\formats\\excel.py',
+   'PYMODULE'),
+  ('pandas.io.formats.format',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\formats\\format.py',
+   'PYMODULE'),
+  ('pandas.io.formats.html',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\formats\\html.py',
+   'PYMODULE'),
+  ('pandas.io.formats.info',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\formats\\info.py',
+   'PYMODULE'),
+  ('pandas.io.formats.printing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\formats\\printing.py',
+   'PYMODULE'),
+  ('pandas.io.formats.string',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\formats\\string.py',
+   'PYMODULE'),
+  ('pandas.io.formats.style',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\formats\\style.py',
+   'PYMODULE'),
+  ('pandas.io.formats.style_render',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\formats\\style_render.py',
+   'PYMODULE'),
+  ('pandas.io.formats.xml',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\formats\\xml.py',
+   'PYMODULE'),
+  ('pandas.io.gbq',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\gbq.py',
+   'PYMODULE'),
+  ('pandas.io.html',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\html.py',
+   'PYMODULE'),
+  ('pandas.io.json',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\json\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.json._json',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\json\\_json.py',
+   'PYMODULE'),
+  ('pandas.io.json._normalize',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\json\\_normalize.py',
+   'PYMODULE'),
+  ('pandas.io.json._table_schema',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\json\\_table_schema.py',
+   'PYMODULE'),
+  ('pandas.io.orc',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\orc.py',
+   'PYMODULE'),
+  ('pandas.io.parquet',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\parquet.py',
+   'PYMODULE'),
+  ('pandas.io.parsers',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.arrow_parser_wrapper',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\parsers\\arrow_parser_wrapper.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.base_parser',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\parsers\\base_parser.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.c_parser_wrapper',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\parsers\\c_parser_wrapper.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.python_parser',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\parsers\\python_parser.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.readers',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py',
+   'PYMODULE'),
+  ('pandas.io.pickle',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\pickle.py',
+   'PYMODULE'),
+  ('pandas.io.pytables',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\pytables.py',
+   'PYMODULE'),
+  ('pandas.io.sas',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\sas\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas7bdat',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\sas\\sas7bdat.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_constants',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\sas\\sas_constants.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_xport',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\sas\\sas_xport.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sasreader',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\sas\\sasreader.py',
+   'PYMODULE'),
+  ('pandas.io.spss',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\spss.py',
+   'PYMODULE'),
+  ('pandas.io.sql',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\sql.py',
+   'PYMODULE'),
+  ('pandas.io.stata',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\stata.py',
+   'PYMODULE'),
+  ('pandas.io.xml',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\io\\xml.py',
+   'PYMODULE'),
+  ('pandas.plotting',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\plotting\\__init__.py',
+   'PYMODULE'),
+  ('pandas.plotting._core',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\plotting\\_core.py',
+   'PYMODULE'),
+  ('pandas.plotting._misc',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\plotting\\_misc.py',
+   'PYMODULE'),
+  ('pandas.testing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\testing.py',
+   'PYMODULE'),
+  ('pandas.tseries',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\tseries\\__init__.py',
+   'PYMODULE'),
+  ('pandas.tseries.api',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\tseries\\api.py',
+   'PYMODULE'),
+  ('pandas.tseries.frequencies',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\tseries\\frequencies.py',
+   'PYMODULE'),
+  ('pandas.tseries.holiday',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\tseries\\holiday.py',
+   'PYMODULE'),
+  ('pandas.tseries.offsets',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\tseries\\offsets.py',
+   'PYMODULE'),
+  ('pandas.util',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.util._decorators',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\util\\_decorators.py',
+   'PYMODULE'),
+  ('pandas.util._exceptions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\util\\_exceptions.py',
+   'PYMODULE'),
+  ('pandas.util._print_versions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\util\\_print_versions.py',
+   'PYMODULE'),
+  ('pandas.util._tester',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\util\\_tester.py',
+   'PYMODULE'),
+  ('pandas.util._validators',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\util\\_validators.py',
+   'PYMODULE'),
+  ('pandas.util.version',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pandas\\util\\version\\__init__.py',
+   'PYMODULE'),
+  ('pathlib',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\pathlib.py',
+   'PYMODULE'),
+  ('pdb',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\pdb.py',
+   'PYMODULE'),
+  ('pickle',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\pickle.py',
+   'PYMODULE'),
+  ('pickletools',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\pickletools.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\pkgutil.py',
+   'PYMODULE'),
+  ('platform',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\platform.py',
+   'PYMODULE'),
+  ('pprint',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('py_compile',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('pydoc',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\pydoc.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pytz',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pytz\\__init__.py',
+   'PYMODULE'),
+  ('pytz.exceptions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pytz\\exceptions.py',
+   'PYMODULE'),
+  ('pytz.lazy',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pytz\\lazy.py',
+   'PYMODULE'),
+  ('pytz.tzfile',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pytz\\tzfile.py',
+   'PYMODULE'),
+  ('pytz.tzinfo',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\pytz\\tzinfo.py',
+   'PYMODULE'),
+  ('queue',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\queue.py',
+   'PYMODULE'),
+  ('quopri',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\quopri.py',
+   'PYMODULE'),
+  ('random',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\random.py',
+   'PYMODULE'),
+  ('runpy',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\runpy.py',
+   'PYMODULE'),
+  ('secrets',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\secrets.py',
+   'PYMODULE'),
+  ('selectors',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\selectors.py',
+   'PYMODULE'),
+  ('shlex',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\shlex.py',
+   'PYMODULE'),
+  ('shutil',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\shutil.py',
+   'PYMODULE'),
+  ('signal',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\signal.py',
+   'PYMODULE'),
+  ('six',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('socket',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\socket.py',
+   'PYMODULE'),
+  ('socketserver',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\socketserver.py',
+   'PYMODULE'),
+  ('sqlite3',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\sqlite3\\__init__.py',
+   'PYMODULE'),
+  ('sqlite3.dbapi2',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\sqlite3\\dbapi2.py',
+   'PYMODULE'),
+  ('sqlite3.dump',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\sqlite3\\dump.py',
+   'PYMODULE'),
+  ('ssl',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\ssl.py',
+   'PYMODULE'),
+  ('statistics',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\statistics.py',
+   'PYMODULE'),
+  ('string',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\string.py',
+   'PYMODULE'),
+  ('stringprep',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('subprocess',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\subprocess.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\sysconfig.py',
+   'PYMODULE'),
+  ('tarfile',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\tarfile.py',
+   'PYMODULE'),
+  ('tempfile',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\tempfile.py',
+   'PYMODULE'),
+  ('textwrap',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\textwrap.py',
+   'PYMODULE'),
+  ('threading',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\threading.py',
+   'PYMODULE'),
+  ('token',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\token.py',
+   'PYMODULE'),
+  ('tokenize',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\tokenize.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('tty',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\tty.py',
+   'PYMODULE'),
+  ('typing',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\typing.py',
+   'PYMODULE'),
+  ('typing_extensions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\site-packages\\typing_extensions.py',
+   'PYMODULE'),
+  ('unittest',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest._log',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\unittest\\_log.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('urllib',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('uuid',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\uuid.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\webbrowser.py',
+   'PYMODULE'),
+  ('xml',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.dom',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\dom\\__init__.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\dom\\NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.domreg',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\dom\\domreg.py',
+   'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\dom\\expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\dom\\minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.minidom',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\dom\\minidom.py',
+   'PYMODULE'),
+  ('xml.dom.pulldom',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\dom\\pulldom.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\dom\\xmlbuilder.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('zipfile',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\zipfile.py',
+   'PYMODULE'),
+  ('zipimport',
+   'F:\\CODE\\2025-08-14 '
+   'Generator-for-college-student-file-transfer-form\\.conda\\Lib\\zipimport.py',
+   'PYMODULE')])
