@@ -22,33 +22,63 @@ class MissingFieldsDialog(QDialog):
     """缺失字段填写对话框"""
     def __init__(self, missing_fields, row_info, parent=None):
         super().__init__(parent)
-        self.setWindowTitle("缺失字段填写")
+        self.setWindowTitle("补全缺失字段")
         self.setModal(True)
         self.fields = {}
-        
-        # 过滤掉不需要用户填写的字段
-        auto_fields = {'转档字号'}  # 自动生成的字段
-        fields_to_fill = missing_fields - auto_fields
         
         layout = QVBoxLayout()
         
         # 提示信息
-        info_label = QLabel(f"学号：{row_info.get('学号', 'N/A')} 姓名：{row_info.get('姓名', 'N/A')}\n以下字段在Excel中未找到，请填写（可留空）：")
-        info_label.setWordWrap(True)
+        info_text = f"学号：{row_info.get('学号', 'N/A')}  姓名：{row_info.get('姓名', 'N/A')}  班级：{row_info.get('班级', 'N/A')}"
+        info_label = QLabel(info_text)
+        info_label.setStyleSheet("font-weight: bold; padding: 10px;")
         layout.addWidget(info_label)
+        
+        missing_label = QLabel("以下字段在数据中缺失，请补全（可留空）：")
+        layout.addWidget(missing_label)
         
         # 字段输入
         form_layout = QFormLayout()
-        for field in fields_to_fill:
+        for field in missing_fields:
             line_edit = QLineEdit()
-            # 如果是年份字段，添加提示
+            
+            # 根据字段名称设置提示文本
             if field == '年':
-                line_edit.setPlaceholderText('后两位，如：24、25')
-                line_edit.setMaxLength(2)
+                line_edit.setPlaceholderText('如：2025')
+            elif field == '月':
+                line_edit.setPlaceholderText('如：7')
+            elif field == '日':
+                line_edit.setPlaceholderText('如：15')
+            elif field == '届':
+                line_edit.setPlaceholderText('如：2023')
+            elif field == '身份证号':
+                line_edit.setPlaceholderText('请输入身份证号')
+            elif field == '收档单位名称':
+                line_edit.setPlaceholderText('请输入收档单位名称')
+            elif field == '转递编号':
+                line_edit.setPlaceholderText('请输入转递编号')
+            elif field == '生源地':
+                line_edit.setPlaceholderText('请输入生源地')
+            elif field == '手机号':
+                line_edit.setPlaceholderText('请输入手机号')
+            elif field == '档案转递类型':
+                line_edit.setPlaceholderText('请输入档案转递类型')
+            elif field == '就业单位名称':
+                line_edit.setPlaceholderText('请输入就业单位名称')
+            elif field == '就业单位地址':
+                line_edit.setPlaceholderText('请输入就业单位地址')
+            else:
+                line_edit.setPlaceholderText(f'请输入{field}')
+            
             self.fields[field] = line_edit
             form_layout.addRow(f"{field}:", line_edit)
         
         layout.addLayout(form_layout)
+        
+        # 添加说明
+        note_label = QLabel("提示：点击“确定”保存填写内容，点击“取消”可选择跳过或留空生成")
+        note_label.setStyleSheet("color: gray; font-size: 10pt; padding: 5px;")
+        layout.addWidget(note_label)
         
         # 按钮
         buttons = QDialogButtonBox(
@@ -60,15 +90,13 @@ class MissingFieldsDialog(QDialog):
         layout.addWidget(buttons)
         
         self.setLayout(layout)
-        self.resize(400, min(300 + len(fields_to_fill) * 30, 600))
+        self.resize(450, min(350 + len(missing_fields) * 35, 650))
     
     def get_values(self):
+        """获取用户输入的值"""
         values = {}
         for field, edit in self.fields.items():
-            value = edit.text()
-            # 如果是年份字段且输入了4位，只取后两位
-            if field == '年' and len(value) > 2:
-                value = value[-2:]
+            value = edit.text().strip()
             values[field] = value
         return values
 
@@ -273,6 +301,8 @@ class ArchiveTransferGenerator(QMainWindow):
         self.data_table.setAlternatingRowColors(True)
         self.data_table.setSelectionBehavior(QAbstractItemView.SelectionBehavior.SelectRows)
         self.data_table.setEditTriggers(QAbstractItemView.EditTrigger.DoubleClicked)
+        # 当单元格内容改变时更新转档字号
+        self.data_table.itemChanged.connect(self.on_table_item_changed)
         layout.addWidget(self.data_table)
         
         tab.setLayout(layout)
@@ -287,14 +317,14 @@ class ArchiveTransferGenerator(QMainWindow):
         form_group = QGroupBox("档案信息填写")
         form_layout = QGridLayout()
         
-        # 定义所有可能的字段（不包括提交时间）
+        # 定义所有可能的字段
         self.manual_fields = {}
         field_list = [
             ('姓名', '请输入姓名'),
             ('学号', '请输入学号'),
             ('班级', '请输入班级'),
             ('届', '如：2023'),
-            ('年', '后两位，如：24、25'),
+            ('年', '如：2025'),
             ('月', '如：7'),
             ('日', '如：15'),
             ('身份证号', '请输入身份证号'),
@@ -313,10 +343,6 @@ class ArchiveTransferGenerator(QMainWindow):
             label = QLabel(f"{field_name}:")
             line_edit = QLineEdit()
             line_edit.setPlaceholderText(placeholder)
-            
-            # 如果是年份字段，限制最大长度为2
-            if field_name == '年':
-                line_edit.setMaxLength(2)
             
             self.manual_fields[field_name] = line_edit
             
@@ -353,6 +379,68 @@ class ArchiveTransferGenerator(QMainWindow):
         tab.setLayout(layout)
         return tab
     
+    def on_table_item_changed(self, item):
+        """当表格项改变时触发"""
+        if not item:
+            return
+        
+        row = item.row()
+        col = item.column()
+        
+        # 获取列标题
+        header = self.data_table.horizontalHeaderItem(col)
+        if not header:
+            return
+        
+        column_name = header.text()
+        
+        # 如果修改的是年、学号或班级列，更新转档字号
+        if column_name in ['年', '学号', '班级']:
+            self.update_transfer_number_for_row(row)
+    
+    def update_transfer_number_for_row(self, row):
+        """更新指定行的转档字号"""
+        # 查找年、学号、班级列的索引
+        year_col = month_col = day_col = student_id_col = class_col = transfer_col = -1
+        
+        for col in range(self.data_table.columnCount()):
+            header = self.data_table.horizontalHeaderItem(col)
+            if header:
+                header_text = header.text()
+                if header_text == '年':
+                    year_col = col
+                elif header_text == '月':
+                    month_col = col
+                elif header_text == '日':
+                    day_col = col
+                elif header_text == '学号':
+                    student_id_col = col
+                elif header_text == '班级':
+                    class_col = col
+                elif header_text == '转档字号':
+                    transfer_col = col
+        
+        # 如果找到了所有必要的列
+        if year_col >= 0 and student_id_col >= 0 and class_col >= 0:
+            year_item = self.data_table.item(row, year_col)
+            student_id_item = self.data_table.item(row, student_id_col)
+            class_item = self.data_table.item(row, class_col)
+            
+            if year_item and student_id_item and class_item:
+                year = year_item.text().strip()
+                student_id = student_id_item.text().strip()
+                class_name = class_item.text().strip()
+                
+                if year and student_id and class_name:
+                    # 生成转档字号：年份后两位 + 学号 + _ + 班级
+                    year_suffix = year[-2:] if len(year) >= 2 else year
+                    transfer_number = f"{year_suffix}{student_id}_{class_name}"
+                    
+                    # 如果转档字号列存在，更新它
+                    if transfer_col >= 0:
+                        transfer_item = QTableWidgetItem(transfer_number)
+                        self.data_table.setItem(row, transfer_col, transfer_item)
+    
     def load_excel(self):
         """加载Excel文件"""
         file_path, _ = QFileDialog.getOpenFileName(
@@ -368,6 +456,9 @@ class ArchiveTransferGenerator(QMainWindow):
                 self.excel_data = pd.read_excel(file_path)
                 self.excel_data = self.excel_data.fillna('')  # 将NaN替换为空字符串
                 
+                # 处理日期字段，提取年月日
+                self.process_date_fields()
+                
                 # 显示数据到表格
                 self.display_data()
                 
@@ -376,90 +467,88 @@ class ArchiveTransferGenerator(QMainWindow):
                 self.deselect_all_btn.setEnabled(True)
                 self.generate_btn.setEnabled(True)
                 
-                # 检查是否有提交时间列
-                status_msg = f'已加载 {len(self.excel_data)} 条记录'
-                if '提交时间' in self.excel_data.columns:
-                    status_msg += ' (已自动从提交时间提取年月日)'
-                
-                self.statusBar().showMessage(status_msg)
+                self.statusBar().showMessage(f'已加载 {len(self.excel_data)} 条记录')
                 
             except Exception as e:
                 QMessageBox.critical(self, "错误", f"读取Excel文件失败：\n{str(e)}")
+    
+    def process_date_fields(self):
+        """处理日期字段，提取年月日"""
+        if self.excel_data is None:
+            return
+        
+        # 查找日期字段
+        date_field_names = ['提交时间', '提交日期', '日期', '时间', '创建时间', '更新时间']
+        date_field = None
+        
+        for field_name in date_field_names:
+            if field_name in self.excel_data.columns:
+                date_field = field_name
+                break
+        
+        if not date_field:
+            return
+        
+        # 提取年月日
+        for idx, row in self.excel_data.iterrows():
+            date_value = row[date_field]
+            if date_value and not pd.isna(date_value):
+                try:
+                    # 如果是datetime对象
+                    if hasattr(date_value, 'year'):
+                        self.excel_data.at[idx, '年'] = str(date_value.year)  # 完整年份
+                        self.excel_data.at[idx, '月'] = str(date_value.month)
+                        self.excel_data.at[idx, '日'] = str(date_value.day)
+                    else:
+                        # 如果是字符串
+                        date_str = str(date_value).strip()
+                        if ' ' in date_str:
+                            date_part = date_str.split(' ')[0]
+                        else:
+                            date_part = date_str
+                        
+                        if '/' in date_part:
+                            parts = date_part.split('/')
+                            if len(parts) >= 3:
+                                self.excel_data.at[idx, '年'] = parts[0].strip()  # 完整年份
+                                self.excel_data.at[idx, '月'] = str(int(parts[1])) if parts[1].isdigit() else parts[1]
+                                self.excel_data.at[idx, '日'] = str(int(parts[2])) if parts[2].isdigit() else parts[2]
+                        elif '-' in date_part:
+                            parts = date_part.split('-')
+                            if len(parts) >= 3:
+                                self.excel_data.at[idx, '年'] = parts[0].strip()  # 完整年份
+                                self.excel_data.at[idx, '月'] = str(int(parts[1])) if parts[1].isdigit() else parts[1]
+                                self.excel_data.at[idx, '日'] = str(int(parts[2])) if parts[2].isdigit() else parts[2]
+                except:
+                    pass
+        
+        # 生成转档字号
+        if '年' in self.excel_data.columns and '学号' in self.excel_data.columns and '班级' in self.excel_data.columns:
+            for idx, row in self.excel_data.iterrows():
+                year = str(row['年']) if pd.notna(row['年']) else ''
+                student_id = str(row['学号']) if pd.notna(row['学号']) else ''
+                class_name = str(row['班级']) if pd.notna(row['班级']) else ''
+                
+                if year and student_id and class_name:
+                    # 转档字号使用年份后两位
+                    year_suffix = year[-2:] if len(year) >= 2 else year
+                    self.excel_data.at[idx, '转档字号'] = f"{year_suffix}{student_id}_{class_name}"
     
     def display_data(self):
         """显示数据到表格"""
         if self.excel_data is None:
             return
         
-        # 创建显示用的数据副本
-        display_df = self.excel_data.copy()
-        
-        # 支持多个可能的日期字段名
-        date_field_names = ['提交日期', '提交时间', '日期', '时间', '创建时间', '更新时间']
-        date_field = None
-        
-        # 查找存在的日期字段
-        for field_name in date_field_names:
-            if field_name in display_df.columns:
-                date_field = field_name
-                print(f"[显示数据] 检测到日期字段: '{field_name}'，预先提取年月日用于显示")
-                break
-        
-        # 如果找到日期字段，添加年月日列用于预览
-        if date_field:
-            for idx, row in display_df.iterrows():
-                date_value = row[date_field]
-                if date_value and not pd.isna(date_value):
-                    try:
-                        # 如果是datetime对象
-                        if hasattr(date_value, 'year'):
-                            year = str(date_value.year)[-2:]  # 只取后两位
-                            display_df.at[idx, '年(预览)'] = year
-                            display_df.at[idx, '月(预览)'] = str(date_value.month)
-                            display_df.at[idx, '日(预览)'] = str(date_value.day)
-                        else:
-                            # 如果是字符串
-                            date_str = str(date_value).strip()
-                            if ' ' in date_str:
-                                date_part = date_str.split(' ')[0]
-                            else:
-                                date_part = date_str
-                            
-                            if '/' in date_part:
-                                parts = date_part.split('/')
-                                if len(parts) >= 3:
-                                    year = parts[0][-2:]  # 只取后两位
-                                    display_df.at[idx, '年(预览)'] = year
-                                    display_df.at[idx, '月(预览)'] = str(int(parts[1])) if parts[1].isdigit() else parts[1]
-                                    display_df.at[idx, '日(预览)'] = str(int(parts[2])) if parts[2].isdigit() else parts[2]
-                            elif '-' in date_part:
-                                parts = date_part.split('-')
-                                if len(parts) >= 3:
-                                    year = parts[0][-2:]  # 只取后两位
-                                    display_df.at[idx, '年(预览)'] = year
-                                    display_df.at[idx, '月(预览)'] = str(int(parts[1])) if parts[1].isdigit() else parts[1]
-                                    display_df.at[idx, '日(预览)'] = str(int(parts[2])) if parts[2].isdigit() else parts[2]
-                        
-                        # 生成转档字号预览
-                        if '学号' in row and '班级' in row:
-                            year = display_df.at[idx, '年(预览)'] if '年(预览)' in display_df.columns else ''
-                            student_id = str(row['学号']) if pd.notna(row['学号']) else ''
-                            class_name = str(row['班级']) if pd.notna(row['班级']) else ''
-                            if year and student_id and class_name:
-                                display_df.at[idx, '转档字号(预览)'] = f"{year}{student_id}_{class_name}"
-                    except:
-                        pass
-        
         # 设置表格
-        self.data_table.setRowCount(len(display_df))
-        self.data_table.setColumnCount(len(display_df.columns) + 1)
+        self.data_table.setRowCount(len(self.excel_data))
+        self.data_table.setColumnCount(len(self.excel_data.columns) + 1)
         
         # 设置表头
-        headers = ['选择'] + list(display_df.columns)
+        headers = ['选择'] + list(self.excel_data.columns)
         self.data_table.setHorizontalHeaderLabels(headers)
         
         # 填充数据
-        for row_idx, row_data in display_df.iterrows():
+        for row_idx, row_data in self.excel_data.iterrows():
             # 添加复选框
             checkbox = QTableWidgetItem()
             checkbox.setCheckState(Qt.CheckState.Unchecked)
@@ -532,64 +621,27 @@ class ArchiveTransferGenerator(QMainWindow):
                             full_text = ''.join(run.text for run in paragraph.runs) if paragraph.runs else paragraph.text
                             variables.update(re.findall(r'\{\{(\w+)\}\}', full_text))
             
-            print(f"[模板解析] 找到的变量: {variables}")
             return template_path, variables
         except Exception as e:
             QMessageBox.critical(self, "错误", f"读取模板文件失败：\n{str(e)}")
             return None
     
-    def extract_date_fields(self, row_data):
-        """从提交时间字段提取年月日"""
-        if '提交时间' in row_data and row_data['提交时间']:
-            try:
-                date_str = str(row_data['提交时间']).strip()
-                print(f"正在处理日期: {date_str}")
-                
-                # 处理可能的日期格式，去除时间部分
-                if ' ' in date_str:
-                    date_part = date_str.split(' ')[0]
-                else:
-                    date_part = date_str
-                
-                # 解析日期 (格式: 年/月/日 或 年-月-日)
-                if '/' in date_part:
-                    parts = date_part.split('/')
-                    if len(parts) >= 3:
-                        year = parts[0].strip()
-                        month = parts[1].strip()
-                        day = parts[2].strip()
-                        
-                        # 去除前导零
-                        month = str(int(month)) if month.isdigit() else month
-                        day = str(int(day)) if day.isdigit() else day
-                        
-                        row_data['年'] = year
-                        row_data['月'] = month
-                        row_data['日'] = day
-                        print(f"成功提取日期 (/分隔): 年={year}, 月={month}, 日={day}")
-                elif '-' in date_part:
-                    parts = date_part.split('-')
-                    if len(parts) >= 3:
-                        year = parts[0].strip()
-                        month = parts[1].strip()
-                        day = parts[2].strip()
-                        
-                        # 去除前导零
-                        month = str(int(month)) if month.isdigit() else month
-                        day = str(int(day)) if day.isdigit() else day
-                        
-                        row_data['年'] = year
-                        row_data['月'] = month
-                        row_data['日'] = day
-                        print(f"成功提取日期 (-分隔): 年={year}, 月={month}, 日={day}")
-                else:
-                    print(f"无法识别的日期格式: {date_part}")
-            except Exception as e:
-                print(f"解析日期失败: {date_str}, 错误: {e}")
-        else:
-            print("没有找到提交时间字段或字段为空")
+    def get_row_data_from_table(self, row_idx):
+        """从表格获取指定行的数据"""
+        data = {}
         
-        return row_data
+        # 获取所有列的数据（跳过第一列的复选框）
+        for col in range(1, self.data_table.columnCount()):
+            header = self.data_table.horizontalHeaderItem(col)
+            if header:
+                column_name = header.text()
+                item = self.data_table.item(row_idx, col)
+                if item:
+                    data[column_name] = item.text()
+                else:
+                    data[column_name] = ''
+        
+        return data
     
     def batch_generate(self):
         """批量生成Word文档"""
@@ -609,100 +661,74 @@ class ArchiveTransferGenerator(QMainWindow):
             return
         
         template_path, template_variables = template_info
-        print(f"[模板变量] 需要的字段: {template_variables}")
         
         # 选择输出目录
         output_dir = QFileDialog.getExistingDirectory(self, "选择输出目录")
         if not output_dir:
             return
         
-        # 准备数据
+        # 准备数据 - 直接从表格获取数据
         data_rows = []
+        
         for row_idx in selected_rows:
-            # 直接从原始Excel数据获取
-            if row_idx < len(self.excel_data):
-                row_data = self.excel_data.iloc[row_idx].to_dict()
-                
-                # 转换NaN为空字符串
-                for key in row_data:
-                    if pd.isna(row_data[key]):
-                        row_data[key] = ''
-                    elif not isinstance(row_data[key], str):
-                        # 保持日期对象不变，其他转为字符串
-                        if not hasattr(row_data[key], 'year'):
-                            row_data[key] = str(row_data[key])
-            else:
-                continue
+            # 直接从表格获取当前显示的数据
+            row_data = self.get_row_data_from_table(row_idx)
             
-            print(f"\n[第{row_idx+1}行] 原始数据字段: {list(row_data.keys())}")
-            
-            # 检查是否有日期相关字段
-            date_fields = ['提交日期', '提交时间', '日期', '时间', '创建时间', '更新时间']
-            for field in date_fields:
-                if field in row_data and row_data[field]:
-                    print(f"[第{row_idx+1}行] 发现{field}: '{row_data[field]}' (类型: {type(row_data[field])})")
-                    break
-            
-            # 从日期字段提取年月日
-            original_keys = set(row_data.keys())
-            row_data = self.extract_date_fields(row_data)
-            
-            # 生成转档字号
-            row_data = self.generate_transfer_number(row_data)
-            
-            # 打印提取结果
-            new_keys = set(row_data.keys()) - original_keys
-            if new_keys:
-                print(f"[第{row_idx+1}行] ✓ 新增字段: {new_keys}")
-                for key in ['年', '月', '日', '转档字号']:
-                    if key in row_data:
-                        print(f"[第{row_idx+1}行]   {key} = '{row_data[key]}'")
-            
-            # 检查缺失字段（排除自动生成的字段）
-            auto_generated_fields = {'转档字号'}  # 自动生成的字段列表
+            # 检查缺失的必要字段
             missing_fields = set()
             for field in template_variables:
-                if field in auto_generated_fields:
-                    continue  # 跳过自动生成的字段
-                if field not in row_data:
+                if field not in row_data or not row_data[field]:
                     missing_fields.add(field)
-                    print(f"[第{row_idx+1}行] ✗ 字段 '{field}' 不存在")
-                elif not row_data[field]:
-                    missing_fields.add(field)
-                    print(f"[第{row_idx+1}行] ✗ 字段 '{field}' 为空")
-                else:
-                    print(f"[第{row_idx+1}行] ✓ 字段 '{field}' = '{row_data[field]}'")
             
+            # 如果有缺失字段，弹出对话框让用户补全
             if missing_fields:
-                print(f"[第{row_idx+1}行] 缺失字段汇总: {missing_fields}")
-                # 显示对话框时，提取一些信息用于显示
+                # 显示当前记录信息
                 info_for_dialog = {
                     '姓名': row_data.get('姓名', 'N/A'),
-                    '学号': row_data.get('学号', 'N/A')
+                    '学号': row_data.get('学号', 'N/A'),
+                    '班级': row_data.get('班级', 'N/A')
                 }
+                
                 dialog = MissingFieldsDialog(missing_fields, info_for_dialog, self)
                 if dialog.exec() == QDialog.DialogCode.Accepted:
+                    # 获取用户填写的值
                     filled_values = dialog.get_values()
-                    row_data.update(filled_values)
-                    print(f"[第{row_idx+1}行] 用户填写了: {filled_values}")
                     
-                    # 如果用户填写了年、学号或班级，重新生成转档字号
+                    # 更新数据
+                    for field, value in filled_values.items():
+                        if value:  # 只更新非空值
+                            row_data[field] = value
+                            
+                            # 同时更新表格显示
+                            for col in range(1, self.data_table.columnCount()):
+                                header = self.data_table.horizontalHeaderItem(col)
+                                if header and header.text() == field:
+                                    item = QTableWidgetItem(value)
+                                    self.data_table.setItem(row_idx, col, item)
+                                    break
+                    
+                    # 如果用户填写了年、学号或班级，更新转档字号
                     if any(key in filled_values for key in ['年', '学号', '班级']):
-                        row_data = self.generate_transfer_number(row_data)
-                        print(f"[第{row_idx+1}行] 重新生成转档字号: {row_data.get('转档字号', '')}")
+                        self.update_transfer_number_for_row(row_idx)
+                        # 重新获取更新后的数据
+                        row_data = self.get_row_data_from_table(row_idx)
                 else:
-                    print(f"[第{row_idx+1}行] 用户取消，跳过此行")
-                    continue  # 跳过这一行
-            else:
-                print(f"[第{row_idx+1}行] ✓ 所有字段完整")
+                    # 用户取消了，但仍然可以选择继续（字段留空）
+                    reply = QMessageBox.question(
+                        self,
+                        "跳过此记录",
+                        f"学号：{info_for_dialog['学号']} 姓名：{info_for_dialog['姓名']}\n\n是否跳过此记录？\n\n选择“是”跳过此记录，选择“否”将缺失字段留空继续生成。",
+                        QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No
+                    )
+                    if reply == QMessageBox.StandardButton.Yes:
+                        continue  # 跳过这条记录
+                    # 否则继续，缺失字段留空
             
             data_rows.append(row_data)
         
         if not data_rows:
             QMessageBox.warning(self, "警告", "没有要生成的数据")
             return
-        
-        print(f"\n[批量生成] 准备生成 {len(data_rows)} 个文档")
         
         # 创建进度对话框
         progress_dialog = QProgressDialog("正在生成Word文档...", "取消", 0, 100, self)
@@ -739,7 +765,7 @@ class ArchiveTransferGenerator(QMainWindow):
         """填充今天的日期"""
         today = datetime.now()
         if '年' in self.manual_fields:
-            self.manual_fields['年'].setText(str(today.year)[-2:])  # 只取后两位
+            self.manual_fields['年'].setText(str(today.year))  # 完整年份
         if '月' in self.manual_fields:
             self.manual_fields['月'].setText(str(today.month))
         if '日' in self.manual_fields:
@@ -768,6 +794,12 @@ class ArchiveTransferGenerator(QMainWindow):
             QMessageBox.warning(self, "警告", f"请填写必填字段：{', '.join(missing_required)}")
             return
         
+        # 生成转档字号（使用年份后两位）
+        if '年' in data and '学号' in data and '班级' in data:
+            year = data['年']
+            year_suffix = year[-2:] if len(year) >= 2 else year
+            data['转档字号'] = f"{year_suffix}{data['学号']}_{data['班级']}"
+        
         # 检查模板中的其他变量
         missing_fields = template_variables - set(data.keys())
         if missing_fields:
@@ -793,7 +825,7 @@ class ArchiveTransferGenerator(QMainWindow):
             # 生成文档
             doc = Document(template_path)
             
-            # 替换占位符（保持格式）
+            # 替换占位符
             for paragraph in doc.paragraphs:
                 for key, value in data.items():
                     placeholder = f"{{{{{key}}}}}"
@@ -803,7 +835,7 @@ class ArchiveTransferGenerator(QMainWindow):
                             if placeholder in run.text:
                                 run.text = run.text.replace(placeholder, str(value))
             
-            # 替换表格中的占位符（保持格式）
+            # 替换表格中的占位符
             for table in doc.tables:
                 for row in table.rows:
                     for cell in row.cells:
