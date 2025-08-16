@@ -78,7 +78,7 @@ class MissingFieldsDialog(QDialog):
         layout.addLayout(form_layout)
         
         # 添加说明
-        note_label = QLabel("提示：点击“确定”保存填写内容，点击“取消”可选择跳过或留空生成")
+        note_label = QLabel("提示：点击：“确定”保存填写内容，点击“取消”可选择跳过或留空生成")
         note_label.setStyleSheet("color: gray; font-size: 10pt; padding: 5px;")
         layout.addWidget(note_label)
         
@@ -233,6 +233,112 @@ class WordGeneratorThread(QThread):
                 # 清空中间的runs
                 for info in affected_runs[1:]:
                     info['run'].text = ''
+
+class DocumentGenerator:
+    """文档生成器类 - 提取通用的文档处理逻辑"""
+    
+    @staticmethod
+    def replace_text_in_paragraph(paragraph, data):
+        """替换段落中的占位符，保持原有格式"""
+        # 先检查整个段落文本中是否包含占位符
+        full_text = ''.join(run.text for run in paragraph.runs)
+        
+        for key, value in data.items():
+            placeholder = f"{{{{{key}}}}}"
+            if placeholder in full_text:
+                # 占位符可能被分割在多个run中，需要特殊处理
+                DocumentGenerator.replace_placeholder_in_runs(paragraph.runs, placeholder, str(value) if value else '')
+    
+    @staticmethod
+    def replace_placeholder_in_runs(runs, placeholder, replacement):
+        """在runs中替换占位符，处理占位符被分割的情况"""
+        text = ''
+        run_info = []
+        
+        # 收集所有run的文本和信息
+        for run in runs:
+            run_start = len(text)
+            text += run.text
+            run_end = len(text)
+            run_info.append({
+                'run': run,
+                'start': run_start,
+                'end': run_end,
+                'original_text': run.text
+            })
+        
+        # 查找并替换占位符
+        new_text = text.replace(placeholder, replacement)
+        
+        # 如果没有变化，直接返回
+        if new_text == text:
+            return
+        
+        # 计算需要调整的位置
+        placeholder_pos = text.find(placeholder)
+        if placeholder_pos == -1:
+            return
+        
+        # 找到占位符涉及的runs
+        affected_runs = []
+        for info in run_info:
+            if info['start'] <= placeholder_pos < info['end'] or \
+               info['start'] < placeholder_pos + len(placeholder) <= info['end'] or \
+               (info['start'] >= placeholder_pos and info['end'] <= placeholder_pos + len(placeholder)):
+                affected_runs.append(info)
+        
+        if affected_runs:
+            # 在第一个受影响的run中进行替换
+            first_run = affected_runs[0]['run']
+            
+            # 构建新的文本
+            before_placeholder = text[:placeholder_pos]
+            after_placeholder = text[placeholder_pos + len(placeholder):]
+            
+            # 计算第一个run应该包含的文本
+            first_run_start = affected_runs[0]['start']
+            first_run_text_before = before_placeholder[first_run_start:] if first_run_start < len(before_placeholder) else ''
+            
+            # 设置第一个run的新文本
+            first_run.text = first_run_text_before + replacement
+            
+            # 处理剩余的文本
+            remaining_text_start = placeholder_pos + len(placeholder)
+            if len(affected_runs) > 1:
+                last_run = affected_runs[-1]
+                if last_run['end'] > remaining_text_start:
+                    # 如果最后一个受影响的run还有剩余文本
+                    remaining_in_last = after_placeholder[:last_run['end'] - remaining_text_start]
+                    first_run.text += remaining_in_last
+                
+                # 清空中间的runs
+                for info in affected_runs[1:]:
+                    info['run'].text = ''
+    
+    @staticmethod
+    def generate_document(template_path, data, output_path):
+        """生成单个文档的通用方法"""
+        try:
+            # 加载模板
+            doc = Document(template_path)
+            
+            # 替换段落中的占位符
+            for paragraph in doc.paragraphs:
+                DocumentGenerator.replace_text_in_paragraph(paragraph, data)
+            
+            # 替换表格中的占位符
+            for table in doc.tables:
+                for row in table.rows:
+                    for cell in row.cells:
+                        for paragraph in cell.paragraphs:
+                            DocumentGenerator.replace_text_in_paragraph(paragraph, data)
+            
+            # 保存文档
+            doc.save(output_path)
+            return True
+            
+        except Exception as e:
+            raise Exception(f"生成文档时出错：{str(e)}")
 
 class ArchiveTransferGenerator(QMainWindow):
     def __init__(self):
@@ -425,7 +531,7 @@ class ArchiveTransferGenerator(QMainWindow):
         author_layout = QVBoxLayout()
         
         author_info = """
-        <p><b>作者：</b>周天千</p>
+        <p><b>作者：</b>周天僖</p>
         <p><b>联系邮箱：</b>2023520354@bipt.edu.cn</p>
         <p><b>制作时间：</b>2025年8月</p>
         <p><b>版本：</b>v1.0</p>
@@ -1020,7 +1126,7 @@ class ArchiveTransferGenerator(QMainWindow):
             self.manual_fields['日'].setText(str(today.day))
     
     def generate_single(self):
-        """生成单个Word文档"""
+        """生成单个Word文档 - 修复版本"""
         # 获取模板信息
         template_info = self.get_template_variables()
         if not template_info:
@@ -1074,38 +1180,13 @@ class ArchiveTransferGenerator(QMainWindow):
             return
         
         try:
-            # 生成文档
-            doc = Document(template_path)
-            
-            # 替换占位符
-            for paragraph in doc.paragraphs:
-                for key, value in data.items():
-                    placeholder = f"{{{{{key}}}}}"
-                    if placeholder in paragraph.text:
-                        # 遍历所有runs以保持格式
-                        for run in paragraph.runs:
-                            if placeholder in run.text:
-                                run.text = run.text.replace(placeholder, str(value))
-            
-            # 替换表格中的占位符
-            for table in doc.tables:
-                for row in table.rows:
-                    for cell in row.cells:
-                        for paragraph in cell.paragraphs:
-                            for key, value in data.items():
-                                placeholder = f"{{{{{key}}}}}"
-                                if placeholder in paragraph.text:
-                                    for run in paragraph.runs:
-                                        if placeholder in run.text:
-                                            run.text = run.text.replace(placeholder, str(value))
-            
             # 生成文件名
             filename = f"{data.get('学号', 'unknown')}_{data.get('姓名', 'unknown')}_{data.get('班级', 'unknown')}.docx"
             filename = re.sub(r'[<>:"/\\|?*]', '_', filename)
-            
-            # 保存文档
             output_path = os.path.join(output_dir, filename)
-            doc.save(output_path)
+            
+            # 使用统一的文档生成方法
+            DocumentGenerator.generate_document(template_path, data, output_path)
             
             QMessageBox.information(self, "成功", f"文档已生成：\n{filename}")
             self.statusBar().showMessage(f'文档已生成：{filename}')
