@@ -531,7 +531,7 @@ class ArchiveTransferGenerator(QMainWindow):
         author_layout = QVBoxLayout()
         
         author_info = """
-        <p><b>作者：</b>周天僖</p>
+        <p><b>作者：</b>周天千</p>
         <p><b>联系邮箱：</b>2023520354@bipt.edu.cn</p>
         <p><b>制作时间：</b>2025年8月</p>
         <p><b>版本：</b>v1.0</p>
